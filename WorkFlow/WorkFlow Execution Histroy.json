@@ -1,0 +1,153 @@
+In appuser     middleName or middle_initial is not there, which field need to consider for middle name
+
+
+
+in mapping deleted  middle_initial,   displayname and cn
+
+
+
+
+https: //howard.oktapreview.com/home/workday/0oayhkcfrBmyXooqt1d6/30
+{
+    "eventId": "lE7CpKYvSXKO8ZRe3mWE8A",
+    "eventTime": "2021-07-27T00:45:19.000Z",
+    "eventType": "com.okta.import.transform",
+    "eventTypeVersion": "1.0",
+    "contentType": "application/json",
+    "cloudEventVersion": "0.1",
+    "source": "cal12q5836TJiI7TW1d7",
+    "data": {
+        "context": {
+            "conflicts": [],
+            "application": {
+                "name": "workday",
+                "id": "0oayhkcfrBmyXooqt1d6",
+                "label": "Workday_Training",
+                "status": "ACTIVE"
+            },
+            "job": {
+                "id": "ij112x2i8aHyEBYyN1d7",
+                "type": "import:users"
+            },
+            "matches": [],
+            "policy": [
+                "EMAIL",
+                "FIRST_AND_LAST_NAME"
+            ]
+        },
+        "action": {
+            "result": "CREATE_USER"
+        },
+        "appUser": {
+            "profile": {
+                "lastName": "White",
+                "businessUnit": null,
+                "city": "Washington",
+                "postalCode": "20059",
+                "employeeID": "000258378",
+                "location_id": "C.B. Powell Building",
+                "businessTitle": "Graduate Assistant - Stipend",
+                "countryCode": "US",
+                "worker_type": "Employee",
+                "state": "District of Columbia",
+                "job_code": "1401",
+                "cost_center_name": "School of Communications - Office of the Dean - Communications",
+                "email": "rhema.white@bison.howard.edu",
+                "cost_center_id": "CC2000",
+                "accountType": "EMPLOYEE",
+                "secondEmail": null,
+                "position_name": "P00024613 Graduate Assistant - Stipend - Rhema White",
+                "externalId": "80571f260686018825c40f21c800893c",
+                "managerId": "80571f2606860184c7d86d2cc800d972",
+                "hire_date": "2020-08-02",
+                "userName": "rhema.white@howard.edu",
+                "firstName": "Rhema",
+                "location_name": "C.B. Powell Building",
+                "mobilePhone": "-",
+                "streetAddress": "525 Bryant Street NW",
+                "supervisoryOrg": "Cathy Hughes School of Communications",
+                "employee_subtype": "Student",
+                "workPhone": "-",
+                "location": "C.B. Powell Building",
+                "managerUserName": "gracie.lawsonborders@howard.edu",
+                "job_profile": "Graduate Assistant - Stipend",
+                "position_id": "P00024613"
+            }
+        },
+        "user": {
+            "profile": {
+                "workerType": "Employee",
+                "lastName": "White",
+                "zipCode": "20059",
+                "commonName": "White,Rhema",
+                "city": "Washington",
+                "displayName": "White,Rhema",
+                "postAddress": null,
+                "jobCode": "1401",
+                "login": "rhema.white@bison.howard.edu",
+                "title": "Graduate Assistant - Stipend",
+                "employeeNumber": "000258378",
+                "positionName": "P00024613 Graduate Assistant - Stipend - Rhema White",
+                "terminationDate": null,
+                "countryCode": "US",
+                "locationId": "C.B. Powell Building",
+                "state": "District of Columbia",
+                "department": null,
+                "email": "rhema.white@bison.howard.edu",
+                "hireDate": "2020-08-02",
+                "locationName": "C.B. Powell Building",
+                "jobProfile": "Graduate Assistant - Stipend",
+                "manager": "gracie.lawsonborders@howard.edu",
+                "costCenter": "CC2000",
+                "secondEmail": null,
+                "managerId": "80571f2606860184c7d86d2cc800d972",
+                "firstName": "Rhema",
+                "primaryPhone": "-",
+                "employeeType": "Student",
+                "mobilePhone": "-",
+                "positionId": "P00024613",
+                "streetAddress": "525 Bryant Street NW",
+                "organization": "Cathy Hughes School of Communications",
+                "costCenterName": "School of Communications - Office of the Dean - Communications",
+                "typeId": null,
+                "middleName": null,
+                "userType": "EMPLOYEE",
+                "managerUpn": "gracie.lawsonborders@howard.edu"
+            }
+        }
+    }
+}
+
+
+
+
+{
+    "appuser": {
+        "profile": {
+            "firstName": "Ghadeer",
+            "middle_initial": "",
+            "lastName": "Abdullah",
+            "streetAddress": "Test Street",
+            "email": "ghadeer.abdullah@bison.howard.edu",
+            "city": "gwalior",
+            "mobilePhone": "4433559320"
+        }
+    }
+}
+
+{
+    "data": {
+        "appUser": {
+            "profile": {
+                "firstName": "Anjali",
+                "lastName": "ö",
+                "streetAddress": "Test Street",
+                "streetAddress2": "Test1 Street1",
+                "email": "anjali23@in.ibm.com",
+                "city": "gwalior",
+                "mobilePhone": "4433559320",
+                "middle_initial": ""
+            }
+        }
+    }
+}

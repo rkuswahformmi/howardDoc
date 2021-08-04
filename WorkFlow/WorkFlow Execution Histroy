@@ -1,0 +1,33 @@
+{"eventId":"AFDsHk3PQaaNoxWszVbosg","eventTime":"2021-07-26T01:38:17.000Z","eventType":"com.okta.import.transform","eventTypeVersion":"1.0","contentType":"application/json","cloudEventVersion":"0.1","source":"cal12q5836TJiI7TW1d7","data":{"context":{"conflicts":[],"application":{"name":"workday","id":"0oayhkcfrBmyXooqt1d6","label":"Workday_Training","status":"ACTIVE"},"job":{"id":"ij112qang3BVqrCEK1d7","type":"import:users"},"matches":[],"policy":["EMAIL","FIRST_AND_LAST_NAME"]},"action":{"result":"CREATE_USER"},"appUser":{"profile":{"lastName":"Wright","businessUnit":null,"city":"Washington","postalCode":"20059","employeeID":"000176736","location_id":"C.B. Powell Building","businessTitle":"Professor","countryCode":"US","worker_type":"Employee","state":"District of Columbia","job_code":"1203","cost_center_name":"School of Communications - Strategy, Legal & Management Communications","email":"rwright@howard.edu","cost_center_id":"CC2005","accountType":"EMPLOYEE","secondEmail":null,"position_name":"P00003702 Professor - Richard Wright","externalId":"80571f2606860105ea699f0dc8000be1","managerId":"80571f2606860184c7d86d2cc800d972","hire_date":"1976-08-01","userName":"rwright@howard.edu","firstName":"Richard","location_name":"C.B. Powell Building","mobilePhone":"-","streetAddress":"525 Bryant Street NW","supervisoryOrg":"Cathy Hughes School of Communications","employee_subtype":"Faculty","workPhone":"+1 (202) 8066968","location":"C.B. Powell Building","managerUserName":"gracie.lawsonborders@howard.edu","job_profile":"Professor","position_id":"P00003702"}},"user":{"profile":{"workerType":"Employee","lastName":"Wright","zipCode":"20059","commonName":"Wright,Richard","city":"Washington","displayName":"Wright,Richard","postAddress":null,"jobCode":"1203","login":"rwright@howard.edu","title":"Professor","employeeNumber":"000176736","positionName":"P00003702 Professor - Richard Wright","terminationDate":null,"countryCode":"US","locationId":"C.B. Powell Building","state":"District of Columbia","department":null,"email":"rwright@howard.edu","hireDate":"1976-08-01","locationName":"C.B. Powell Building","jobProfile":"Professor","manager":"gracie.lawsonborders@howard.edu","costCenter":"CC2005","secondEmail":null,"managerId":"80571f2606860184c7d86d2cc800d972","firstName":"Richard","primaryPhone":"+1 (202) 8066968","employeeType":"Faculty","mobilePhone":"-","positionId":"P00003702","streetAddress":"525 Bryant Street NW","organization":"Cathy Hughes School of Communications","costCenterName":"School of Communications - Strategy, Legal & Management Communications","typeId":null,"middleName":null,"userType":"EMPLOYEE","managerUpn":"gracie.lawsonborders@howard.edu"}}}}
+
+
+
+
+termination_date
+
+hire_date
+
+birthDate
+
+
+Name:  Stella Chukwu
+
+Carlton Brown
+
+
+
+Date.now().toLocaleDateString('{\"timeZone\":\"PST\", "format":"yyyy-MM-dd"}')
+
+appuser.hire_date
+
+Time.fromIso8601ToString(user.hiredate,“MM/DD/YYYY”)
+
+Date.parse($NonStandardDate, "yyyy MM dd")
+
+
+
+
+
+appuser.hire_date.toLocaleDateString('{\"timeZone\":\"PST\", "format":"yyyy MM dd"}')
+Date.parse(appuser.hire_date, "yyyy MM dd")
+Time.fromIso8601ToString(user.hiredate,"MM/DD/YYYY")
