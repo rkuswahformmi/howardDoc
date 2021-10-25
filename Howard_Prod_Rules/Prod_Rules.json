@@ -1,0 +1,1104 @@
+[
+    {
+        "type": "group_rule",
+        "id": "0pr1fo5pd8uwr4sZR5d7",
+        "status": "ACTIVE",
+        "name": "Rule_12moFaculty",
+        "created": "2021-08-09T23:30:18.000Z",
+        "lastUpdated": "2021-09-28T20:28:52.000Z",
+        "conditions": {
+            "people": {
+                "users": {
+                    "exclude": []
+                },
+                "groups": {
+                    "exclude": []
+                }
+            },
+            "expression": {
+                "value": "!isMemberOfGroupName(\"DoNotProcess\") AND hasWorkdayUser() AND user.workerType ==\"Employee\" AND user.employeeType == \"Faculty\" AND String.substring(user.disbursementPlanPeriod,0,8)==\"12 Month\"",
+                "type": "urn:okta:expression:1.0"
+            }
+        },
+        "actions": {
+            "assignUserToGroups": {
+                "groupIds": [
+                    "00g1fo3zauE9RJQUA5d7"
+                ]
+            }
+        },
+        "allGroupsValid": true
+    },
+    {
+        "type": "group_rule",
+        "id": "0pr1fo4pckzIKWgiq5d7",
+        "status": "ACTIVE",
+        "name": "Rule_9moFaculty",
+        "created": "2021-08-09T23:30:00.000Z",
+        "lastUpdated": "2021-09-28T20:29:53.000Z",
+        "conditions": {
+            "expression": {
+                "value": "!isMemberOfGroupName(\"DoNotProcess\") AND hasWorkdayUser() AND user.workerType==\"Employee\" AND user.employeeType==\"Faculty\" AND String.substring(user.disbursementPlanPeriod,0,8)!=\"12 Month\"",
+                "type": "urn:okta:expression:1.0"
+            }
+        },
+        "actions": {
+            "assignUserToGroups": {
+                "groupIds": [
+                    "00g1fo3qnuXHdhz5s5d7"
+                ]
+            }
+        },
+        "allGroupsValid": true
+    },
+    {
+        "type": "group_rule",
+        "id": "0pr1fo47s3pWfENIw5d7",
+        "status": "ACTIVE",
+        "name": "Rule_Active_Students",
+        "created": "2021-08-09T23:31:02.000Z",
+        "lastUpdated": "2021-10-20T16:45:52.000Z",
+        "conditions": {
+            "expression": {
+                "value": "!isMemberOfGroupName(\"DoNotProcess\") AND hasDirectoryUser() AND (user.employeeType==\"Student\" OR user.employeeType==\"STU\" OR user.company==\"STUDENT\")",
+                "type": "urn:okta:expression:1.0"
+            }
+        },
+        "actions": {
+            "assignUserToGroups": {
+                "groupIds": [
+                    "00g1fo4vhwGsD6cJC5d7"
+                ]
+            }
+        },
+        "allGroupsValid": true
+    },
+    {
+        "type": "group_rule",
+        "id": "0pr1msdjlrB8IIcjO5d7",
+        "status": "ACTIVE",
+        "name": "Rule_No_AD_assigned",
+        "created": "2021-09-01T19:43:43.000Z",
+        "lastUpdated": "2021-10-01T17:04:21.000Z",
+        "conditions": {
+            "expression": {
+                "value": "hasWorkdayUser() AND !hasDirectoryUser() ",
+                "type": "urn:okta:expression:1.0"
+            }
+        },
+        "actions": {
+            "assignUserToGroups": {
+                "groupIds": [
+                    "00g1mrqlnhhUge3hR5d7"
+                ]
+            }
+        },
+        "allGroupsValid": true
+    },
+    {
+        "type": "group_rule",
+        "id": "0pr2aauohlMrWoVj95d7",
+        "status": "ACTIVE",
+        "name": "Rule_OktaTest_OU",
+        "created": "2021-10-20T22:41:09.000Z",
+        "lastUpdated": "2021-10-20T22:41:25.000Z",
+        "conditions": {
+            "expression": {
+                "value": "String.stringContains(user.distinguishedName, \"OU=OKTA TEST\") AND user.userType == \"TEST\"",
+                "type": "urn:okta:expression:1.0"
+            }
+        },
+        "actions": {
+            "assignUserToGroups": {
+                "groupIds": [
+                    "00g1mw5juc6qpcrch5d7"
+                ]
+            }
+        },
+        "allGroupsValid": true
+    },
+    {
+        "type": "group_rule",
+        "id": "0pr1fo3mxuv4rP8SY5d7",
+        "status": "ACTIVE",
+        "name": "Rule_Staff",
+        "created": "2021-08-09T23:31:51.000Z",
+        "lastUpdated": "2021-10-08T19:34:14.000Z",
+        "conditions": {
+            "expression": {
+                "value": "!isMemberOfGroupName(\"DoNotProcess\") AND hasWorkdayUser() AND (user.employeeType==\"Regular\" OR user.employeeType==\"Intern (Fixed Term) (Trainee)\")",
+                "type": "urn:okta:expression:1.0"
+            }
+        },
+        "actions": {
+            "assignUserToGroups": {
+                "groupIds": [
+                    "00g1fo4vi7kTxC7nV5d7"
+                ]
+            }
+        },
+        "allGroupsValid": true
+    },
+    {
+        "type": "group_rule",
+        "id": "0pr1kzmb2y4dBPsmy5d7",
+        "status": "ACTIVE",
+        "name": "Rule_Terminated_CollegeofArtsSciences",
+        "created": "2021-08-27T03:25:34.000Z",
+        "lastUpdated": "2021-10-22T04:30:17.000Z",
+        "conditions": {
+            "people": {
+                "users": {
+                    "exclude": [
+                        "00u1eez87o1MsslrM5d7",
+                        "00u1fnyluljBsv9OY5d7",
+                        "00us3cz61hZDTDLx65d6"
+                    ]
+                },
+                "groups": {
+                    "exclude": []
+                }
+            },
+            "expression": {
+                "value": "!isMemberOfGroupName(\"DoNotProcess\") AND !hasWorkdayUser() AND isMemberOfGroupName(\"Active_Students\") AND !isMemberOfGroupName(\"12moFaculty\") AND !isMemberOfGroupName(\"9moFaculty\") AND !isMemberOfGroupName(\"Staff\") AND !isMemberOfGroupName(\"Wage\") AND !isMemberOfGroupName(\"Visitors\") AND (user.userType==\"EMPLOYEE\" OR user.userType==\"CONTINGENT\") AND (String.substring(user.department,0,15)==\"College of Arts\" OR String.substring(user.organization,0,15)==\"College of Arts\")",
+                "type": "urn:okta:expression:1.0"
+            }
+        },
+        "actions": {
+            "assignUserToGroups": {
+                "groupIds": [
+                    "00g1kzf26sLHorrjH5d7"
+                ]
+            }
+        },
+        "allGroupsValid": true
+    },
+    {
+        "type": "group_rule",
+        "id": "0pr1kzmt3sUA3hCL35d7",
+        "status": "ACTIVE",
+        "name": "Rule_Terminated_CollegeofDentistry",
+        "created": "2021-08-27T03:26:56.000Z",
+        "lastUpdated": "2021-10-22T04:30:18.000Z",
+        "conditions": {
+            "people": {
+                "users": {
+                    "exclude": [
+                        "00u1eez87o1MsslrM5d7",
+                        "00u1fnyluljBsv9OY5d7",
+                        "00us3cz61hZDTDLx65d6"
+                    ]
+                },
+                "groups": {
+                    "exclude": []
+                }
+            },
+            "expression": {
+                "value": "!isMemberOfGroupName(\"DoNotProcess\") AND !hasWorkdayUser() AND isMemberOfGroupName(\"Active_Students\") AND !isMemberOfGroupName(\"12moFaculty\") AND !isMemberOfGroupName(\"9moFaculty\") AND !isMemberOfGroupName(\"Staff\") AND !isMemberOfGroupName(\"Wage\") AND !isMemberOfGroupName(\"Visitors\") AND (user.userType==\"EMPLOYEE\" OR user.userType==\"CONTINGENT\") AND \n(String.substring(user.department,0,20)==\"College of Dentistry\" OR String.substring(user.organization,0,20)==\"College of Dentistry\")",
+                "type": "urn:okta:expression:1.0"
+            }
+        },
+        "actions": {
+            "assignUserToGroups": {
+                "groupIds": [
+                    "00g1kzezzw0SHNFcB5d7"
+                ]
+            }
+        },
+        "allGroupsValid": true
+    },
+    {
+        "type": "group_rule",
+        "id": "0pr1kzxup42sPBgMc5d7",
+        "status": "ACTIVE",
+        "name": "Rule_Terminated_CollegeofEngineering",
+        "created": "2021-08-27T03:42:43.000Z",
+        "lastUpdated": "2021-10-22T04:30:21.000Z",
+        "conditions": {
+            "expression": {
+                "value": "!isMemberOfGroupName(\"DoNotProcess\") AND !hasWorkdayUser() AND isMemberOfGroupName(\"Active_Students\") AND !isMemberOfGroupName(\"12moFaculty\") AND !isMemberOfGroupName(\"9moFaculty\") AND !isMemberOfGroupName(\"Staff\") AND !isMemberOfGroupName(\"Wage\") AND !isMemberOfGroupName(\"Visitors\") AND (user.userType==\"EMPLOYEE\" OR user.userType==\"CONTINGENT\") AND (String.substring(user.organization,0,22)==\"College of Engineering\" OR String.substring(user.department,0,22)==\"College of Engineering\")\n",
+                "type": "urn:okta:expression:1.0"
+            }
+        },
+        "actions": {
+            "assignUserToGroups": {
+                "groupIds": [
+                    "00g1kzf09aBp8mCVB5d7"
+                ]
+            }
+        },
+        "allGroupsValid": true
+    },
+    {
+        "type": "group_rule",
+        "id": "0pr1l006caozh0M2Y5d7",
+        "status": "ACTIVE",
+        "name": "Rule_Terminated_CollegeofEngrg",
+        "created": "2021-08-27T03:47:23.000Z",
+        "lastUpdated": "2021-10-22T04:30:23.000Z",
+        "conditions": {
+            "people": {
+                "users": {
+                    "exclude": [
+                        "00u1eez87o1MsslrM5d7",
+                        "00u1fnyluljBsv9OY5d7",
+                        "00us3cz61hZDTDLx65d6"
+                    ]
+                },
+                "groups": {
+                    "exclude": []
+                }
+            },
+            "expression": {
+                "value": "!isMemberOfGroupName(\"DoNotProcess\") AND !hasWorkdayUser() AND isMemberOfGroupName(\"Active_Students\") AND !isMemberOfGroupName(\"12moFaculty\") AND !isMemberOfGroupName(\"9moFaculty\") AND !isMemberOfGroupName(\"Staff\") AND !isMemberOfGroupName(\"Wage\") AND !isMemberOfGroupName(\"Visitors\") AND (user.userType==\"EMPLOYEE\" OR user.userType==\"CONTINGENT\") AND (String.substring(user.organization,0,16)==\"College of Engrg\" OR String.substring(user.department,0,16)==\"College of Engrg\")",
+                "type": "urn:okta:expression:1.0"
+            }
+        },
+        "actions": {
+            "assignUserToGroups": {
+                "groupIds": [
+                    "00g1kzfvbgO0P1bQH5d7"
+                ]
+            }
+        },
+        "allGroupsValid": true
+    },
+    {
+        "type": "group_rule",
+        "id": "0pr1l0117i2z3WAwX5d7",
+        "status": "ACTIVE",
+        "name": "Rule_Terminated_CollegeofMedicine",
+        "created": "2021-08-27T03:48:57.000Z",
+        "lastUpdated": "2021-10-22T04:30:25.000Z",
+        "conditions": {
+            "people": {
+                "users": {
+                    "exclude": [
+                        "00u1eez87o1MsslrM5d7",
+                        "00u1fnyluljBsv9OY5d7",
+                        "00us3cz61hZDTDLx65d6"
+                    ]
+                },
+                "groups": {
+                    "exclude": []
+                }
+            },
+            "expression": {
+                "value": "!isMemberOfGroupName(\"DoNotProcess\") AND !hasWorkdayUser() AND isMemberOfGroupName(\"Active_Students\") AND !isMemberOfGroupName(\"12moFaculty\") AND !isMemberOfGroupName(\"9moFaculty\") AND !isMemberOfGroupName(\"Staff\") AND !isMemberOfGroupName(\"Wage\") AND !isMemberOfGroupName(\"Visitors\") AND (user.userType==\"EMPLOYEE\" OR user.userType==\"CONTINGENT\") AND (String.substring(user.organization,0,19)==\"College of Medicine\" OR String.substring(user.department,0,19)==\"College of Medicine\")",
+                "type": "urn:okta:expression:1.0"
+            }
+        },
+        "actions": {
+            "assignUserToGroups": {
+                "groupIds": [
+                    "00g1kzi181vYM9g6Q5d7"
+                ]
+            }
+        },
+        "allGroupsValid": true
+    },
+    {
+        "type": "group_rule",
+        "id": "0pr1kzof56PRYEJuq5d7",
+        "status": "ACTIVE",
+        "name": "Rule_Terminated_CollegeofNurs",
+        "created": "2021-08-27T03:28:59.000Z",
+        "lastUpdated": "2021-10-22T04:30:28.000Z",
+        "conditions": {
+            "people": {
+                "users": {
+                    "exclude": [
+                        "00u1eez87o1MsslrM5d7",
+                        "00u1fnyluljBsv9OY5d7",
+                        "00us3cz61hZDTDLx65d6"
+                    ]
+                },
+                "groups": {
+                    "exclude": []
+                }
+            },
+            "expression": {
+                "value": "!isMemberOfGroupName(\"DoNotProcess\") AND !hasWorkdayUser() AND isMemberOfGroupName(\"Active_Students\") AND !isMemberOfGroupName(\"12moFaculty\") AND !isMemberOfGroupName(\"9moFaculty\") AND !isMemberOfGroupName(\"Staff\") AND !isMemberOfGroupName(\"Wage\") AND !isMemberOfGroupName(\"Visitors\") AND (user.userType==\"EMPLOYEE\" OR user.userType==\"CONTINGENT\") AND (String.substring(user.organization,0,15)==\"College of Nurs\" OR String.substring(user.department,0,15)==\"College of Nurs\")",
+                "type": "urn:okta:expression:1.0"
+            }
+        },
+        "actions": {
+            "assignUserToGroups": {
+                "groupIds": [
+                    "00g1kzi388tIblJ3N5d7"
+                ]
+            }
+        },
+        "allGroupsValid": true
+    },
+    {
+        "type": "group_rule",
+        "id": "0pr1kzoews0tJeFdY5d7",
+        "status": "ACTIVE",
+        "name": "Rule_Terminated_CollegeofPharmacy",
+        "created": "2021-08-27T03:30:01.000Z",
+        "lastUpdated": "2021-10-22T04:30:29.000Z",
+        "conditions": {
+            "people": {
+                "users": {
+                    "exclude": [
+                        "00u1eez87o1MsslrM5d7",
+                        "00u1fnyluljBsv9OY5d7",
+                        "00us3cz61hZDTDLx65d6"
+                    ]
+                },
+                "groups": {
+                    "exclude": []
+                }
+            },
+            "expression": {
+                "value": "!isMemberOfGroupName(\"DoNotProcess\") AND !hasWorkdayUser() AND isMemberOfGroupName(\"Active_Students\") AND !isMemberOfGroupName(\"12moFaculty\") AND !isMemberOfGroupName(\"9moFaculty\") AND !isMemberOfGroupName(\"Staff\") AND !isMemberOfGroupName(\"Wage\") AND !isMemberOfGroupName(\"Visitors\") AND (user.userType==\"EMPLOYEE\" OR user.userType==\"CONTINGENT\") AND (String.substring(user.organization,0,19)==\"College of Pharmacy\" OR String.substring(user.department,0,19)==\"College of Pharmacy\")",
+                "type": "urn:okta:expression:1.0"
+            }
+        },
+        "actions": {
+            "assignUserToGroups": {
+                "groupIds": [
+                    "00g1kzij42C4ddpz65d7"
+                ]
+            }
+        },
+        "allGroupsValid": true
+    },
+    {
+        "type": "group_rule",
+        "id": "0pr1kzq6jvicHxydA5d7",
+        "status": "ACTIVE",
+        "name": "Rule_Terminated_ConsortiumofUniversities",
+        "created": "2021-08-27T03:31:57.000Z",
+        "lastUpdated": "2021-10-22T04:30:31.000Z",
+        "conditions": {
+            "people": {
+                "users": {
+                    "exclude": [
+                        "00u1eez87o1MsslrM5d7",
+                        "00u1fnyluljBsv9OY5d7",
+                        "00us3cz61hZDTDLx65d6"
+                    ]
+                },
+                "groups": {
+                    "exclude": []
+                }
+            },
+            "expression": {
+                "value": "!isMemberOfGroupName(\"DoNotProcess\") AND !hasWorkdayUser() AND isMemberOfGroupName(\"Active_Students\") AND !isMemberOfGroupName(\"12moFaculty\") AND !isMemberOfGroupName(\"9moFaculty\") AND !isMemberOfGroupName(\"Staff\") AND !isMemberOfGroupName(\"Wage\") AND !isMemberOfGroupName(\"Visitors\") AND (user.userType==\"EMPLOYEE\" OR user.userType==\"CONTINGENT\") AND (String.substring(user.organization,0,26)==\"Consortium of Universities\" OR String.substring(user.department,0,26)==\"Consortium of Universities\")",
+                "type": "urn:okta:expression:1.0"
+            }
+        },
+        "actions": {
+            "assignUserToGroups": {
+                "groupIds": [
+                    "00g1kzirlbgo6Iz0o5d7"
+                ]
+            }
+        },
+        "allGroupsValid": true
+    },
+    {
+        "type": "group_rule",
+        "id": "0pr1kzr7qttE8qfQi5d7",
+        "status": "ACTIVE",
+        "name": "Rule_Terminated_ExchangeTE",
+        "created": "2021-08-27T03:33:27.000Z",
+        "lastUpdated": "2021-10-22T04:30:33.000Z",
+        "conditions": {
+            "people": {
+                "users": {
+                    "exclude": [
+                        "00u1eez87o1MsslrM5d7",
+                        "00u1fnyluljBsv9OY5d7",
+                        "00us3cz61hZDTDLx65d6"
+                    ]
+                },
+                "groups": {
+                    "exclude": []
+                }
+            },
+            "expression": {
+                "value": "!isMemberOfGroupName(\"DoNotProcess\") AND !hasWorkdayUser() AND isMemberOfGroupName(\"Active_Students\") AND !isMemberOfGroupName(\"12moFaculty\") AND !isMemberOfGroupName(\"9moFaculty\") AND !isMemberOfGroupName(\"Staff\") AND !isMemberOfGroupName(\"Wage\") AND !isMemberOfGroupName(\"Visitors\") AND (user.userType==\"EMPLOYEE\" OR user.userType==\"CONTINGENT\") AND (String.substring(user.organization,0,9)==\"Extension\" OR String.substring(user.department,0,9)==\"Extension\")",
+                "type": "urn:okta:expression:1.0"
+            }
+        },
+        "actions": {
+            "assignUserToGroups": {
+                "groupIds": [
+                    "00g1kzixrapmuV9JK5d7"
+                ]
+            }
+        },
+        "allGroupsValid": true
+    },
+    {
+        "type": "group_rule",
+        "id": "0pr1kzs2gkOLutCa25d7",
+        "status": "ACTIVE",
+        "name": "Rule_Terminated_GraduateSchool",
+        "created": "2021-08-27T03:34:25.000Z",
+        "lastUpdated": "2021-10-22T04:30:35.000Z",
+        "conditions": {
+            "people": {
+                "users": {
+                    "exclude": [
+                        "00u1eez87o1MsslrM5d7",
+                        "00u1fnyluljBsv9OY5d7",
+                        "00us3cz61hZDTDLx65d6"
+                    ]
+                },
+                "groups": {
+                    "exclude": []
+                }
+            },
+            "expression": {
+                "value": "!isMemberOfGroupName(\"DoNotProcess\") AND !hasWorkdayUser() AND isMemberOfGroupName(\"Active_Students\") AND !isMemberOfGroupName(\"12moFaculty\") AND !isMemberOfGroupName(\"9moFaculty\") AND !isMemberOfGroupName(\"Staff\") AND !isMemberOfGroupName(\"Wage\") AND !isMemberOfGroupName(\"Visitors\") AND (user.userType==\"EMPLOYEE\" OR user.userType==\"CONTINGENT\") AND (String.substring(user.organization,0,15)==\"Graduate School\" OR String.substring(user.department,0,15)==\"Graduate School\")",
+                "type": "urn:okta:expression:1.0"
+            }
+        },
+        "actions": {
+            "assignUserToGroups": {
+                "groupIds": [
+                    "00g1kzj978XG5Vh085d7"
+                ]
+            }
+        },
+        "allGroupsValid": true
+    },
+    {
+        "type": "group_rule",
+        "id": "0pr1kzl3dxQem6QOa5d7",
+        "status": "ACTIVE",
+        "name": "Rule_Terminated_NoCollegeDesignated",
+        "created": "2021-08-27T03:24:01.000Z",
+        "lastUpdated": "2021-10-22T04:30:37.000Z",
+        "conditions": {
+            "people": {
+                "users": {
+                    "exclude": [
+                        "00u1eez87o1MsslrM5d7",
+                        "00u1fnyluljBsv9OY5d7",
+                        "00us3cz61hZDTDLx65d6"
+                    ]
+                },
+                "groups": {
+                    "exclude": []
+                }
+            },
+            "expression": {
+                "value": "!isMemberOfGroupName(\"DoNotProcess\") AND !hasWorkdayUser() AND isMemberOfGroupName(\"Active_Students\") AND !isMemberOfGroupName(\"12moFaculty\") AND !isMemberOfGroupName(\"9moFaculty\") AND !isMemberOfGroupName(\"Staff\") AND !isMemberOfGroupName(\"Wage\") AND !isMemberOfGroupName(\"Visitors\") AND (user.userType==\"EMPLOYEE\" OR user.userType==\"CONTINGENT\") AND (String.substring(user.organization,0,21)==\"No College Designated\" OR String.substring(user.department,0,21)==\"No College Designated\")",
+                "type": "urn:okta:expression:1.0"
+            }
+        },
+        "actions": {
+            "assignUserToGroups": {
+                "groupIds": [
+                    "00g1kzf0hxIJtLe7R5d7"
+                ]
+            }
+        },
+        "allGroupsValid": true
+    },
+    {
+        "type": "group_rule",
+        "id": "0pr1kzwtxzng653t35d7",
+        "status": "ACTIVE",
+        "name": "Rule_Terminated_not_Student",
+        "created": "2021-08-27T03:41:35.000Z",
+        "lastUpdated": "2021-10-20T16:49:21.000Z",
+        "conditions": {
+            "people": {
+                "users": {
+                    "exclude": [
+                        "00u1eez87o1MsslrM5d7",
+                        "00u1fnyluljBsv9OY5d7",
+                        "00us3cz61hZDTDLx65d6"
+                    ]
+                },
+                "groups": {
+                    "exclude": []
+                }
+            },
+            "expression": {
+                "value": "!isMemberOfGroupName(\"DoNotProcess\") AND !hasWorkdayUser() AND !isMemberOfGroupName(\"Active_Students\") AND !isMemberOfGroupName(\"12moFaculty\") AND !isMemberOfGroupName(\"9moFaculty\") AND !isMemberOfGroupName(\"Staff\") AND !isMemberOfGroupName(\"Wage\") AND !isMemberOfGroupName(\"Visitors\") AND (user.userType==\"EMPLOYEE\" OR user.userType==\"CONTINGENT\")",
+                "type": "urn:okta:expression:1.0"
+            }
+        },
+        "actions": {
+            "assignUserToGroups": {
+                "groupIds": [
+                    "00g1kzenid3xboBtm5d7"
+                ]
+            }
+        },
+        "allGroupsValid": true
+    },
+    {
+        "type": "group_rule",
+        "id": "0pr1kzsglfT7gSSbE5d7",
+        "status": "ACTIVE",
+        "name": "Rule_Terminated_SchoolofBusiness",
+        "created": "2021-08-27T03:35:22.000Z",
+        "lastUpdated": "2021-10-22T04:30:39.000Z",
+        "conditions": {
+            "people": {
+                "users": {
+                    "exclude": [
+                        "00u1eez87o1MsslrM5d7",
+                        "00u1fnyluljBsv9OY5d7",
+                        "00us3cz61hZDTDLx65d6"
+                    ]
+                },
+                "groups": {
+                    "exclude": []
+                }
+            },
+            "expression": {
+                "value": "!isMemberOfGroupName(\"DoNotProcess\") AND !hasWorkdayUser() AND isMemberOfGroupName(\"Active_Students\") AND !isMemberOfGroupName(\"12moFaculty\") AND !isMemberOfGroupName(\"9moFaculty\") AND !isMemberOfGroupName(\"Staff\") AND !isMemberOfGroupName(\"Wage\") AND !isMemberOfGroupName(\"Visitors\") AND (user.userType==\"EMPLOYEE\" OR user.userType==\"CONTINGENT\") AND (String.substring(user.organization,0,18)==\"School of Business\" OR String.substring(user.department,0,18)==\"School of Business\")",
+                "type": "urn:okta:expression:1.0"
+            }
+        },
+        "actions": {
+            "assignUserToGroups": {
+                "groupIds": [
+                    "00g1kzjjgvPKB7XYy5d7"
+                ]
+            }
+        },
+        "allGroupsValid": true
+    },
+    {
+        "type": "group_rule",
+        "id": "0pr1kztgioHk7lY4Q5d7",
+        "status": "ACTIVE",
+        "name": "Rule_Terminated_SchoolofCommunications",
+        "created": "2021-08-27T03:36:16.000Z",
+        "lastUpdated": "2021-10-22T04:30:40.000Z",
+        "conditions": {
+            "people": {
+                "users": {
+                    "exclude": [
+                        "00u1eez87o1MsslrM5d7",
+                        "00u1fnyluljBsv9OY5d7",
+                        "00us3cz61hZDTDLx65d6"
+                    ]
+                },
+                "groups": {
+                    "exclude": []
+                }
+            },
+            "expression": {
+                "value": "!isMemberOfGroupName(\"DoNotProcess\") AND !hasWorkdayUser() AND isMemberOfGroupName(\"Active_Students\") AND !isMemberOfGroupName(\"12moFaculty\") AND !isMemberOfGroupName(\"9moFaculty\") AND !isMemberOfGroupName(\"Staff\") AND !isMemberOfGroupName(\"Wage\") AND !isMemberOfGroupName(\"Visitors\") AND (user.userType==\"EMPLOYEE\" OR user.userType==\"CONTINGENT\") AND (String.substring(user.organization,0,24)==\"School of Communications\" OR String.substring(user.department,0,24)==\"School of Communications\")",
+                "type": "urn:okta:expression:1.0"
+            }
+        },
+        "actions": {
+            "assignUserToGroups": {
+                "groupIds": [
+                    "00g1kzj55m6dR4eVo5d7"
+                ]
+            }
+        },
+        "allGroupsValid": true
+    },
+    {
+        "type": "group_rule",
+        "id": "0pr1l01ozaEcvF3cC5d7",
+        "status": "ACTIVE",
+        "name": "Rule_Terminated_SchoolofDivinity",
+        "created": "2021-08-27T03:50:06.000Z",
+        "lastUpdated": "2021-10-22T04:30:43.000Z",
+        "conditions": {
+            "people": {
+                "users": {
+                    "exclude": [
+                        "00u1eez87o1MsslrM5d7",
+                        "00u1fnyluljBsv9OY5d7",
+                        "00us3cz61hZDTDLx65d6"
+                    ]
+                },
+                "groups": {
+                    "exclude": []
+                }
+            },
+            "expression": {
+                "value": "!isMemberOfGroupName(\"DoNotProcess\") AND !hasWorkdayUser() AND isMemberOfGroupName(\"Active_Students\") AND !isMemberOfGroupName(\"12moFaculty\") AND !isMemberOfGroupName(\"9moFaculty\") AND !isMemberOfGroupName(\"Staff\") AND !isMemberOfGroupName(\"Wage\") AND !isMemberOfGroupName(\"Visitors\") AND (user.userType==\"EMPLOYEE\" OR user.userType==\"CONTINGENT\") AND (String.substring(user.organization,0,18)==\"School of Divinity\" OR String.substring(user.department,0,18)==\"School of Divinity\")",
+                "type": "urn:okta:expression:1.0"
+            }
+        },
+        "actions": {
+            "assignUserToGroups": {
+                "groupIds": [
+                    "00g1kzj9rejCXBVHY5d7"
+                ]
+            }
+        },
+        "allGroupsValid": true
+    },
+    {
+        "type": "group_rule",
+        "id": "0pr1kztnrt6760N0v5d7",
+        "status": "ACTIVE",
+        "name": "Rule_Terminated_SchoolofEducation",
+        "created": "2021-08-27T03:37:26.000Z",
+        "lastUpdated": "2021-10-22T04:30:46.000Z",
+        "conditions": {
+            "people": {
+                "users": {
+                    "exclude": [
+                        "00u1eez87o1MsslrM5d7",
+                        "00u1fnyluljBsv9OY5d7",
+                        "00us3cz61hZDTDLx65d6"
+                    ]
+                },
+                "groups": {
+                    "exclude": []
+                }
+            },
+            "expression": {
+                "value": "!isMemberOfGroupName(\"DoNotProcess\") AND !hasWorkdayUser() AND isMemberOfGroupName(\"Active_Students\") AND !isMemberOfGroupName(\"12moFaculty\") AND !isMemberOfGroupName(\"9moFaculty\") AND !isMemberOfGroupName(\"Staff\") AND !isMemberOfGroupName(\"Wage\") AND !isMemberOfGroupName(\"Visitors\") AND (user.userType==\"EMPLOYEE\" OR user.userType==\"CONTINGENT\") AND (String.substring(user.organization,0,19)==\"School of Education\" OR String.substring(user.department,0,19)==\"School of Education\")",
+                "type": "urn:okta:expression:1.0"
+            }
+        },
+        "actions": {
+            "assignUserToGroups": {
+                "groupIds": [
+                    "00g1kzjyamo63U0Mg5d7"
+                ]
+            }
+        },
+        "allGroupsValid": true
+    },
+    {
+        "type": "group_rule",
+        "id": "0pr1kzucgpqefKi2P5d7",
+        "status": "ACTIVE",
+        "name": "Rule_Terminated_SchoolofLaw",
+        "created": "2021-08-27T03:38:24.000Z",
+        "lastUpdated": "2021-10-22T04:30:47.000Z",
+        "conditions": {
+            "people": {
+                "users": {
+                    "exclude": [
+                        "00u1eez87o1MsslrM5d7",
+                        "00u1fnyluljBsv9OY5d7",
+                        "00us3cz61hZDTDLx65d6"
+                    ]
+                },
+                "groups": {
+                    "exclude": []
+                }
+            },
+            "expression": {
+                "value": "!isMemberOfGroupName(\"DoNotProcess\") AND !hasWorkdayUser() AND isMemberOfGroupName(\"Active_Students\") AND !isMemberOfGroupName(\"12moFaculty\") AND !isMemberOfGroupName(\"9moFaculty\") AND !isMemberOfGroupName(\"Staff\") AND !isMemberOfGroupName(\"Wage\") AND !isMemberOfGroupName(\"Visitors\") AND (user.userType==\"EMPLOYEE\" OR user.userType==\"CONTINGENT\") AND (String.substring(user.organization,0,13)==\"School of Law\" OR String.substring(user.department,0,13)==\"School of Law\")",
+                "type": "urn:okta:expression:1.0"
+            }
+        },
+        "actions": {
+            "assignUserToGroups": {
+                "groupIds": [
+                    "00g1kzkadoGQ9ybOA5d7"
+                ]
+            }
+        },
+        "allGroupsValid": true
+    },
+    {
+        "type": "group_rule",
+        "id": "0pr1kzvtbmyVMJFCT5d7",
+        "status": "ACTIVE",
+        "name": "Rule_Terminated_SchoolofSocialWork",
+        "created": "2021-08-27T03:39:22.000Z",
+        "lastUpdated": "2021-10-22T04:30:52.000Z",
+        "conditions": {
+            "people": {
+                "users": {
+                    "exclude": [
+                        "00u1eez87o1MsslrM5d7",
+                        "00u1fnyluljBsv9OY5d7",
+                        "00us3cz61hZDTDLx65d6"
+                    ]
+                },
+                "groups": {
+                    "exclude": []
+                }
+            },
+            "expression": {
+                "value": "!isMemberOfGroupName(\"DoNotProcess\") AND !hasWorkdayUser() AND isMemberOfGroupName(\"Active_Students\") AND !isMemberOfGroupName(\"12moFaculty\") AND !isMemberOfGroupName(\"9moFaculty\") AND !isMemberOfGroupName(\"Staff\") AND !isMemberOfGroupName(\"Wage\") AND !isMemberOfGroupName(\"Visitors\") AND (user.userType==\"EMPLOYEE\" OR user.userType==\"CONTINGENT\") AND (String.substring(user.organization,0,16)==\"School of Social\" OR String.substring(user.department,0,16)==\"School of Social\")",
+                "type": "urn:okta:expression:1.0"
+            }
+        },
+        "actions": {
+            "assignUserToGroups": {
+                "groupIds": [
+                    "00g1kzk9n9C5zzeRp5d7"
+                ]
+            }
+        },
+        "allGroupsValid": true
+    },
+    {
+        "type": "group_rule",
+        "id": "0pr1kzvjxg9pZ4bpl5d7",
+        "status": "ACTIVE",
+        "name": "Rule_Terminated_Undecided",
+        "created": "2021-08-27T03:40:29.000Z",
+        "lastUpdated": "2021-10-22T04:30:55.000Z",
+        "conditions": {
+            "people": {
+                "users": {
+                    "exclude": [
+                        "00u1eez87o1MsslrM5d7",
+                        "00u1fnyluljBsv9OY5d7",
+                        "00us3cz61hZDTDLx65d6"
+                    ]
+                },
+                "groups": {
+                    "exclude": []
+                }
+            },
+            "expression": {
+                "value": "!isMemberOfGroupName(\"DoNotProcess\") AND !hasWorkdayUser() AND isMemberOfGroupName(\"Active_Students\") AND !isMemberOfGroupName(\"12moFaculty\") AND !isMemberOfGroupName(\"9moFaculty\") AND !isMemberOfGroupName(\"Staff\") AND !isMemberOfGroupName(\"Wage\") AND !isMemberOfGroupName(\"Visitors\") AND (user.userType==\"EMPLOYEE\" OR user.userType==\"CONTINGENT\") AND (String.substring(user.organization,0,9)==\"Undecided\" OR String.substring(user.department,0,9)==\"Undecided\")",
+                "type": "urn:okta:expression:1.0"
+            }
+        },
+        "actions": {
+            "assignUserToGroups": {
+                "groupIds": [
+                    "00g1kzkmqpJs1pvBY5d7"
+                ]
+            }
+        },
+        "allGroupsValid": true
+    },
+    {
+        "type": "group_rule",
+        "id": "0pr2aanrmel6ko3Zh5d7",
+        "status": "ACTIVE",
+        "name": "Rule_Testing_Visitor",
+        "created": "2021-10-20T22:27:54.000Z",
+        "lastUpdated": "2021-10-20T22:41:18.000Z",
+        "conditions": {
+            "expression": {
+                "value": "!isMemberOfGroupName(\"OktaTest_OU\") AND user.login ==\"okta.testing@howard.edu\"",
+                "type": "urn:okta:expression:1.0"
+            }
+        },
+        "actions": {
+            "assignUserToGroups": {
+                "groupIds": [
+                    "00g1licv4cydsUSBy5d7"
+                ]
+            }
+        },
+        "allGroupsValid": true
+    },
+    {
+        "type": "group_rule",
+        "id": "0pr1fo4vmbYSgkHyy5d7",
+        "status": "ACTIVE",
+        "name": "Rule_Visitors",
+        "created": "2021-08-09T23:32:44.000Z",
+        "lastUpdated": "2021-09-28T21:11:32.000Z",
+        "conditions": {
+            "expression": {
+                "value": "!isMemberOfGroupName(\"DoNotProcess\") AND hasWorkdayUser() AND user.workerType==\"Contingent Worker\"",
+                "type": "urn:okta:expression:1.0"
+            }
+        },
+        "actions": {
+            "assignUserToGroups": {
+                "groupIds": [
+                    "00g1fo4pbbxhJdnTW5d7"
+                ]
+            }
+        },
+        "allGroupsValid": true
+    },
+    {
+        "type": "group_rule",
+        "id": "0pr1fo7nc8Ga0QvBD5d7",
+        "status": "ACTIVE",
+        "name": "Rule_Wage",
+        "created": "2021-08-09T23:33:18.000Z",
+        "lastUpdated": "2021-09-28T20:31:43.000Z",
+        "conditions": {
+            "expression": {
+                "value": "!isMemberOfGroupName(\"DoNotProcess\") AND hasWorkdayUser() AND (user.employeeType==\"Student\" OR user.employeeType==\"Temporary Wage\" OR user.employeeType==\"Freelancer\")",
+                "type": "urn:okta:expression:1.0"
+            }
+        },
+        "actions": {
+            "assignUserToGroups": {
+                "groupIds": [
+                    "00g1fo4xq2dsbzz9d5d7"
+                ]
+            }
+        },
+        "allGroupsValid": true
+    },
+    {
+        "type": "group_rule",
+        "id": "0pr1rmvnyeg8Dftjp5d7",
+        "status": "ACTIVE",
+        "name": "Rule_Workday_Access",
+        "created": "2021-09-12T16:29:25.000Z",
+        "lastUpdated": "2021-09-12T16:29:33.000Z",
+        "conditions": {
+            "people": {
+                "users": {
+                    "exclude": [
+                        "00u1fozt6pK3hXAmW5d7",
+                        "00u1fozrotbcBf4Q85d7",
+                        "00u1fpjr3lY6hbo2m5d7",
+                        "00u1fph4ewRRBr5915d7",
+                        "00u1fozhth7v4yQs05d7",
+                        "00u1fozs54QDi7Ui95d7",
+                        "00u1fpi0tlUl32E5H5d7",
+                        "00u1foyqtfvWg6RQG5d7",
+                        "00u1fp073vmBihugL5d7",
+                        "00u1fp077av7FqWS65d7",
+                        "00u1fp09ga0EfxBYK5d7",
+                        "00u1fpirno3Lv5oUm5d7",
+                        "00u1mjja61RvLm9KQ5d7",
+                        "00u1fozt1dIigQ5D25d7",
+                        "00u1fozey7CFGe0B25d7",
+                        "00u1fozhnysZHwMZU5d7",
+                        "00u1foyqszIdTvJwt5d7",
+                        "00u1fp00pnKtGLWqC5d7",
+                        "00u1foysyfgX1ZREP5d7",
+                        "00u1fozs4jftpjWP05d7",
+                        "00u1fozqmlHCpfttj5d7",
+                        "00u1fp075jJHFvTAa5d7",
+                        "00u1fozcjkCmofxC35d7",
+                        "00u1fozeqh03IphjO5d7",
+                        "00u1fozvrzxmhCLvO5d7",
+                        "00u1fphfylV15NDRW5d7",
+                        "00u1fozy2mCl4Ohf15d7",
+                        "00u1foz38y0IRvvvV5d7",
+                        "00u1fozt64kRVSiAR5d7",
+                        "00u1fph4e5WdPQNWy5d7",
+                        "00u1fozs1b2i3lkuN5d7",
+                        "00u1fpjr4j8DkTc3i5d7",
+                        "00u1fozxosqEzjRQA5d7",
+                        "00u1fpi0t5GiKulUP5d7",
+                        "00u1fpjr88vIdxkjh5d7",
+                        "00u1fozeprRVkea5F5d7",
+                        "00u1fozvhj7tqWbEj5d7",
+                        "00u1fozrxvVqEiBmo5d7",
+                        "00u1fozk5lrdF7gvw5d7",
+                        "00u1foztq0f84FYOe5d7",
+                        "00u1fp07jmeZok9Bj5d7",
+                        "00u1fozqlheKFBvO45d7",
+                        "00u1fphg4vDMA7LQC5d7",
+                        "00u1fp02tq7G0XQxi5d7",
+                        "00u1foyrwkhJaDGGh5d7",
+                        "00u1fozi0r9n6vTyN5d7",
+                        "00u1mjjs0xNNYWcwY5d7",
+                        "00u1fozcmwyzmgrFL5d7",
+                        "00u1fozq4mlJLbozq5d7",
+                        "00u1mjed5q9mdHqkz5d7",
+                        "00u1fozy0l2SaQhKB5d7",
+                        "00u1fozvpj28teJWX5d7",
+                        "00u1fpjr7fIwQeh0p5d7",
+                        "00u1fozrt8s57OG575d7",
+                        "00u1foztcbfuQw2ac5d7",
+                        "00u1foyriiYAHifPd5d7",
+                        "00u1foztfjsj8gcao5d7",
+                        "00u1fozqejP732URz5d7",
+                        "00u1fozkcdPtonGqV5d7",
+                        "00u1fp02qyrIdyeNj5d7",
+                        "00u1fp044tyuKxR3U5d7",
+                        "00u1foymmoh4WTAsv5d7",
+                        "00u1fp076vgVMZlgK5d7",
+                        "00u1fpjr9hV0Rz0GP5d7",
+                        "00u1fpi0mzh8523Bd5d7",
+                        "00u1foz35lkptx3PG5d7",
+                        "00u1fpi0mrVxFUZmU5d7",
+                        "00u1foyqre0YTNPUr5d7",
+                        "00u1foyl6r5rclNqy5d7",
+                        "00u1fozt7tse6GJXL5d7",
+                        "00u1fphfx7sEVWn8Z5d7",
+                        "00u1fozqcvsQxOA9W5d7",
+                        "00u1foyqrsWIodfVW5d7",
+                        "00u1r8iq1k8Ll49ml5d7",
+                        "00u1fozvesMKCb32e5d7",
+                        "00u1foz5ab2Qh5JqL5d7",
+                        "00u1foz36wBhhrfQ65d7",
+                        "00u1fphg3vzgKO6iq5d7",
+                        "00u1foymm2n2iQ4WW5d7",
+                        "00u1fpjqzv9ErDGWR5d7",
+                        "00u1fp07dtoh6XsDx5d7",
+                        "00u1foz53b8MRATnG5d7",
+                        "00u1fp07cvLPmhQlA5d7",
+                        "00u1fozk3cEG6Ck8p5d7",
+                        "00u1fozenfQ6qtG5c5d7",
+                        "00u1fozi2lFcuBw3A5d7",
+                        "00u1fp09elx8VPXoq5d7",
+                        "00u1fozcct9n1PObv5d7",
+                        "00u1fp07c2d7lNeVh5d7",
+                        "00u1fozk8fEA5X9YZ5d7",
+                        "00u1fozjzi6Oac5te5d7",
+                        "00u1foywhkV9SWW605d7",
+                        "00u1fp09cgYQpUMQL5d7",
+                        "00u1fphg2aIqNFxpL5d7",
+                        "00u1fpnuzumVYe30k5d7",
+                        "00u1fpi0nv3Fqap7t5d7",
+                        "00u1fpnv06ry3if3r5d7",
+                        "00u1fp02j3DNmrM8G5d7",
+                        "00u1fp09icBS2e4OR5d7",
+                        "00u1fp02wwrlu7FTj5d7",
+                        "00u1fozc8spShvJk35d7",
+                        "00u1fphfytwBZm5Ko5d7",
+                        "00u1fpjr9p8e0QFjF5d7",
+                        "00u1foyzqg8zSMxgH5d7",
+                        "00u1foyt4z77mogCc5d7",
+                        "00u1mjed75DdmVdkP5d7",
+                        "00u1fp09h52ZA2fHV5d7",
+                        "00u1fp03wwChg957S5d7",
+                        "00u1fph4mobp8D0Sv5d7",
+                        "00u1ziacyb2tvz1Pw5d7",
+                        "00u1fozk7hfXSSMRc5d7",
+                        "00u1fozxumWpxaxkV5d7",
+                        "00u1foyn9eKRKG8bE5d7",
+                        "00u1fozro1L3lwxSu5d7",
+                        "00u1fp04b5LPHUyn55d7",
+                        "00u1foyjo5DFo8oJN5d7",
+                        "00u1fozqeo0BgC5mZ5d7",
+                        "00u1fozehsRACcocV5d7",
+                        "00u1fp0706B5NsRhe5d7"
+                    ]
+                },
+                "groups": {
+                    "exclude": []
+                }
+            },
+            "expression": {
+                "value": "String.substring(user.login,0,2)==\"HF\" AND !String.stringContains(user.login, \"@\")",
+                "type": "urn:okta:expression:1.0"
+            }
+        },
+        "actions": {
+            "assignUserToGroups": {
+                "groupIds": [
+                    "00g1r662lvfm4fMlM5d7"
+                ]
+            }
+        },
+        "allGroupsValid": true
+    },
+    {
+        "type": "group_rule",
+        "id": "0pr28ydyo2VA4rN8P5d7",
+        "status": "ACTIVE",
+        "name": "Rule_Workday_Assigned",
+        "created": "2021-10-18T03:29:20.000Z",
+        "lastUpdated": "2021-10-18T03:30:12.000Z",
+        "conditions": {
+            "expression": {
+                "value": "hasWorkdayUser()",
+                "type": "urn:okta:expression:1.0"
+            }
+        },
+        "actions": {
+            "assignUserToGroups": {
+                "groupIds": [
+                    "00g28yae5oS6UyU1w5d7"
+                ]
+            }
+        },
+        "allGroupsValid": true
+    },
+    {
+        "type": "group_rule",
+        "id": "0pr1n5wrhnEEzw4OS5d7",
+        "status": "ACTIVE",
+        "name": "Rule_Workday_not_assigned",
+        "created": "2021-09-03T06:09:51.000Z",
+        "lastUpdated": "2021-09-03T06:12:47.000Z",
+        "conditions": {
+            "expression": {
+                "value": "!hasWorkdayUser() AND (user.userType==\"EMPLOYEE\" OR user.userType==\"CONTINGENT\")",
+                "type": "urn:okta:expression:1.0"
+            }
+        },
+        "actions": {
+            "assignUserToGroups": {
+                "groupIds": [
+                    "00g1n5thy4H1Ht2bi5d7"
+                ]
+            }
+        },
+        "allGroupsValid": true
+    },
+    {
+        "type": "group_rule",
+        "id": "0pr28ypknrYevgKa55d7",
+        "status": "ACTIVE",
+        "name": "Rule_Workday_Username_Update",
+        "created": "2021-10-18T03:53:57.000Z",
+        "lastUpdated": "2021-10-18T03:59:44.000Z",
+        "conditions": {
+            "people": {
+                "users": {
+                    "exclude": [
+                        "00u1tgjwdl6GkB8pf5d7",
+                        "00u1foyrt481dThRk5d7",
+                        "00u1foyzsn6goVoNA5d7",
+                        "00u1fozcojdb7SjMf5d7",
+                        "00u1fozeopnTtNT9m5d7",
+                        "00u1fozk096KHSIdi5d7",
+                        "00u1fozqoaSRn9d8b5d7",
+                        "00u1fozs7vOK3OPFa5d7",
+                        "00u1fp040wyEy9NrE5d7",
+                        "00u1fp070mprkHAAU5d7",
+                        "00u1fp073mdsNy2035d7",
+                        "00u1fp075gEM181fl5d7",
+                        "00u1fp07aqFCt4xMC5d7",
+                        "00u1fp09fltsHxGtn5d7",
+                        "00u1uq9dahV64yqKa5d7"
+                    ]
+                },
+                "groups": {
+                    "exclude": []
+                }
+            },
+            "expression": {
+                "value": "isMemberOfGroupName(\"Workday_Assigned\") AND String.substring(user.wdLogin,0,2) != \"HF\"",
+                "type": "urn:okta:expression:1.0"
+            }
+        },
+        "actions": {
+            "assignUserToGroups": {
+                "groupIds": [
+                    "00g28yk9l4wFWjqGl5d7"
+                ]
+            }
+        },
+        "allGroupsValid": true
+    },
+    {
+        "type": "group_rule",
+        "id": "0pr257j472zQfjdXN5d7",
+        "status": "ACTIVE",
+        "name": "WD_Assigned_UN",
+        "created": "2021-10-07T19:58:35.000Z",
+        "lastUpdated": "2021-10-07T19:58:49.000Z",
+        "conditions": {
+            "expression": {
+                "value": "hasWorkdayUser() AND String.substring(user.login,0,2) != \"HF\"",
+                "type": "urn:okta:expression:1.0"
+            }
+        },
+        "actions": {
+            "assignUserToGroups": {
+                "groupIds": [
+                    "00g257c6o1hPy96Hn5d7"
+                ]
+            }
+        },
+        "allGroupsValid": true
+    }
+]

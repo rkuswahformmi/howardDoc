@@ -1,0 +1,1672 @@
+[
+    {
+        "id": "00g15eacka4s8tdxL1d7",
+        "created": "2021-08-08T20:29:16.000Z",
+        "lastUpdated": "2021-08-08T20:29:16.000Z",
+        "lastMembershipUpdated": "2021-09-27T22:19:10.000Z",
+        "objectClass": [
+            "okta:user_group"
+        ],
+        "type": "OKTA_GROUP",
+        "profile": {
+            "name": "12moFaculty",
+            "description": "Group of Faculty with 12 Month disbursement"
+        },
+        "_links": {
+            "logo": [
+                {
+                    "name": "medium",
+                    "href": "https://op3static.oktacdn.com/assets/img/logos/groups/odyssey/okta-medium.1a5ebe44c4244fb796c235d86b47e3bb.png",
+                    "type": "image/png"
+                },
+                {
+                    "name": "large",
+                    "href": "https://op3static.oktacdn.com/assets/img/logos/groups/odyssey/okta-large.d9cfbd8a00a4feac1aa5612ba02e99c0.png",
+                    "type": "image/png"
+                }
+            ],
+            "users": {
+                "href": "https://howard.oktapreview.com/api/v1/groups/00g15eacka4s8tdxL1d7/users"
+            },
+            "apps": {
+                "href": "https://howard.oktapreview.com/api/v1/groups/00g15eacka4s8tdxL1d7/apps"
+            }
+        }
+    },
+    {
+        "id": "00g143ip3xIs2FwAZ1d7",
+        "created": "2021-08-03T21:09:18.000Z",
+        "lastUpdated": "2021-08-04T19:23:03.000Z",
+        "lastMembershipUpdated": "2021-09-29T22:07:35.000Z",
+        "objectClass": [
+            "okta:user_group"
+        ],
+        "type": "OKTA_GROUP",
+        "profile": {
+            "name": "9moFaculty",
+            "description": "Group for Faculty with 9 month disbursement"
+        },
+        "_links": {
+            "logo": [
+                {
+                    "name": "medium",
+                    "href": "https://op3static.oktacdn.com/assets/img/logos/groups/odyssey/okta-medium.1a5ebe44c4244fb796c235d86b47e3bb.png",
+                    "type": "image/png"
+                },
+                {
+                    "name": "large",
+                    "href": "https://op3static.oktacdn.com/assets/img/logos/groups/odyssey/okta-large.d9cfbd8a00a4feac1aa5612ba02e99c0.png",
+                    "type": "image/png"
+                }
+            ],
+            "users": {
+                "href": "https://howard.oktapreview.com/api/v1/groups/00g143ip3xIs2FwAZ1d7/users"
+            },
+            "apps": {
+                "href": "https://howard.oktapreview.com/api/v1/groups/00g143ip3xIs2FwAZ1d7/apps"
+            }
+        }
+    },
+    {
+        "id": "00g13r31z6AMLlk281d7",
+        "created": "2021-08-01T19:28:05.000Z",
+        "lastUpdated": "2021-08-08T04:12:51.000Z",
+        "lastMembershipUpdated": "2021-09-29T22:07:59.000Z",
+        "objectClass": [
+            "okta:user_group"
+        ],
+        "type": "OKTA_GROUP",
+        "profile": {
+            "name": "Active_Students",
+            "description": "Active Students - employeeType is Student"
+        },
+        "_links": {
+            "logo": [
+                {
+                    "name": "medium",
+                    "href": "https://op3static.oktacdn.com/assets/img/logos/groups/odyssey/okta-medium.1a5ebe44c4244fb796c235d86b47e3bb.png",
+                    "type": "image/png"
+                },
+                {
+                    "name": "large",
+                    "href": "https://op3static.oktacdn.com/assets/img/logos/groups/odyssey/okta-large.d9cfbd8a00a4feac1aa5612ba02e99c0.png",
+                    "type": "image/png"
+                }
+            ],
+            "users": {
+                "href": "https://howard.oktapreview.com/api/v1/groups/00g13r31z6AMLlk281d7/users"
+            },
+            "apps": {
+                "href": "https://howard.oktapreview.com/api/v1/groups/00g13r31z6AMLlk281d7/apps"
+            }
+        }
+    },
+    {
+        "id": "00g1lqmdlapU5vgt11d7",
+        "created": "2021-10-13T13:34:58.000Z",
+        "lastUpdated": "2021-10-20T01:29:00.000Z",
+        "lastMembershipUpdated": "2021-10-13T13:34:58.000Z",
+        "objectClass": [
+            "okta:user_group"
+        ],
+        "type": "APP_GROUP",
+        "profile": {
+            "name": "AdmissionsReports",
+            "description": null
+        },
+        "source": {
+            "id": "0oa1ib707gIV94l611d7"
+        },
+        "_links": {
+            "logo": [
+                {
+                    "name": "medium",
+                    "href": "https://op3static.oktacdn.com/assets/img/logos/groups/office365-medium.7b7e50f8abb1398a914d9407fcf37f9a.png",
+                    "type": "image/png"
+                },
+                {
+                    "name": "large",
+                    "href": "https://op3static.oktacdn.com/assets/img/logos/groups/office365-large.c0fa98762e7dd7df42c43ac60f36d09b.png",
+                    "type": "image/png"
+                }
+            ],
+            "source": {
+                "href": "https://howard.oktapreview.com/api/v1/apps/0oa1ib707gIV94l611d7"
+            },
+            "users": {
+                "href": "https://howard.oktapreview.com/api/v1/groups/00g1lqmdlapU5vgt11d7/users"
+            },
+            "apps": {
+                "href": "https://howard.oktapreview.com/api/v1/groups/00g1lqmdlapU5vgt11d7/apps"
+            }
+        }
+    },
+    {
+        "id": "00g18fty7w07ZiUt61d7",
+        "created": "2021-08-23T15:23:36.000Z",
+        "lastUpdated": "2021-08-23T15:23:36.000Z",
+        "lastMembershipUpdated": "2021-09-30T21:47:31.000Z",
+        "objectClass": [
+            "okta:user_group"
+        ],
+        "type": "OKTA_GROUP",
+        "profile": {
+            "name": "ADProv_Test_Group",
+            "description": "Temporary group for AD provisioning testing"
+        },
+        "_links": {
+            "logo": [
+                {
+                    "name": "medium",
+                    "href": "https://op3static.oktacdn.com/assets/img/logos/groups/odyssey/okta-medium.1a5ebe44c4244fb796c235d86b47e3bb.png",
+                    "type": "image/png"
+                },
+                {
+                    "name": "large",
+                    "href": "https://op3static.oktacdn.com/assets/img/logos/groups/odyssey/okta-large.d9cfbd8a00a4feac1aa5612ba02e99c0.png",
+                    "type": "image/png"
+                }
+            ],
+            "users": {
+                "href": "https://howard.oktapreview.com/api/v1/groups/00g18fty7w07ZiUt61d7/users"
+            },
+            "apps": {
+                "href": "https://howard.oktapreview.com/api/v1/groups/00g18fty7w07ZiUt61d7/apps"
+            }
+        }
+    },
+    {
+        "id": "00g1lqmdlq5DTFoqP1d7",
+        "created": "2021-10-13T13:34:58.000Z",
+        "lastUpdated": "2021-10-20T01:29:00.000Z",
+        "lastMembershipUpdated": "2021-10-13T13:34:58.000Z",
+        "objectClass": [
+            "okta:user_group"
+        ],
+        "type": "APP_GROUP",
+        "profile": {
+            "name": "All Company",
+            "description": "All Company"
+        },
+        "source": {
+            "id": "0oa1ib707gIV94l611d7"
+        },
+        "_links": {
+            "logo": [
+                {
+                    "name": "medium",
+                    "href": "https://op3static.oktacdn.com/assets/img/logos/groups/office365-medium.7b7e50f8abb1398a914d9407fcf37f9a.png",
+                    "type": "image/png"
+                },
+                {
+                    "name": "large",
+                    "href": "https://op3static.oktacdn.com/assets/img/logos/groups/office365-large.c0fa98762e7dd7df42c43ac60f36d09b.png",
+                    "type": "image/png"
+                }
+            ],
+            "source": {
+                "href": "https://howard.oktapreview.com/api/v1/apps/0oa1ib707gIV94l611d7"
+            },
+            "users": {
+                "href": "https://howard.oktapreview.com/api/v1/groups/00g1lqmdlq5DTFoqP1d7/users"
+            },
+            "apps": {
+                "href": "https://howard.oktapreview.com/api/v1/groups/00g1lqmdlq5DTFoqP1d7/apps"
+            }
+        }
+    },
+    {
+        "id": "00g1lqmdlwlVKf3Il1d7",
+        "created": "2021-10-13T13:34:58.000Z",
+        "lastUpdated": "2021-10-20T01:29:00.000Z",
+        "lastMembershipUpdated": "2021-10-13T13:34:58.000Z",
+        "objectClass": [
+            "okta:user_group"
+        ],
+        "type": "APP_GROUP",
+        "profile": {
+            "name": "All Users",
+            "description": null
+        },
+        "source": {
+            "id": "0oa1ib707gIV94l611d7"
+        },
+        "_links": {
+            "logo": [
+                {
+                    "name": "medium",
+                    "href": "https://op3static.oktacdn.com/assets/img/logos/groups/office365-medium.7b7e50f8abb1398a914d9407fcf37f9a.png",
+                    "type": "image/png"
+                },
+                {
+                    "name": "large",
+                    "href": "https://op3static.oktacdn.com/assets/img/logos/groups/office365-large.c0fa98762e7dd7df42c43ac60f36d09b.png",
+                    "type": "image/png"
+                }
+            ],
+            "source": {
+                "href": "https://howard.oktapreview.com/api/v1/apps/0oa1ib707gIV94l611d7"
+            },
+            "users": {
+                "href": "https://howard.oktapreview.com/api/v1/groups/00g1lqmdlwlVKf3Il1d7/users"
+            },
+            "apps": {
+                "href": "https://howard.oktapreview.com/api/v1/groups/00g1lqmdlwlVKf3Il1d7/apps"
+            }
+        }
+    },
+    {
+        "id": "00g1lqmdle9FVtQlg1d7",
+        "created": "2021-10-13T13:34:58.000Z",
+        "lastUpdated": "2021-10-20T01:29:00.000Z",
+        "lastMembershipUpdated": "2021-10-13T13:34:58.000Z",
+        "objectClass": [
+            "okta:user_group"
+        ],
+        "type": "APP_GROUP",
+        "profile": {
+            "name": "AllReports",
+            "description": null
+        },
+        "source": {
+            "id": "0oa1ib707gIV94l611d7"
+        },
+        "_links": {
+            "logo": [
+                {
+                    "name": "medium",
+                    "href": "https://op3static.oktacdn.com/assets/img/logos/groups/office365-medium.7b7e50f8abb1398a914d9407fcf37f9a.png",
+                    "type": "image/png"
+                },
+                {
+                    "name": "large",
+                    "href": "https://op3static.oktacdn.com/assets/img/logos/groups/office365-large.c0fa98762e7dd7df42c43ac60f36d09b.png",
+                    "type": "image/png"
+                }
+            ],
+            "source": {
+                "href": "https://howard.oktapreview.com/api/v1/apps/0oa1ib707gIV94l611d7"
+            },
+            "users": {
+                "href": "https://howard.oktapreview.com/api/v1/groups/00g1lqmdle9FVtQlg1d7/users"
+            },
+            "apps": {
+                "href": "https://howard.oktapreview.com/api/v1/groups/00g1lqmdle9FVtQlg1d7/apps"
+            }
+        }
+    },
+    {
+        "id": "00g122cr7j6ypNFVX1d7",
+        "created": "2021-07-23T21:19:20.000Z",
+        "lastUpdated": "2021-07-23T21:19:20.000Z",
+        "lastMembershipUpdated": "2021-07-23T21:19:20.000Z",
+        "objectClass": [
+            "okta:user_group"
+        ],
+        "type": "OKTA_GROUP",
+        "profile": {
+            "name": "All_Employees",
+            "description": "All Employee Group"
+        },
+        "_links": {
+            "logo": [
+                {
+                    "name": "medium",
+                    "href": "https://op3static.oktacdn.com/assets/img/logos/groups/odyssey/okta-medium.1a5ebe44c4244fb796c235d86b47e3bb.png",
+                    "type": "image/png"
+                },
+                {
+                    "name": "large",
+                    "href": "https://op3static.oktacdn.com/assets/img/logos/groups/odyssey/okta-large.d9cfbd8a00a4feac1aa5612ba02e99c0.png",
+                    "type": "image/png"
+                }
+            ],
+            "users": {
+                "href": "https://howard.oktapreview.com/api/v1/groups/00g122cr7j6ypNFVX1d7/users"
+            },
+            "apps": {
+                "href": "https://howard.oktapreview.com/api/v1/groups/00g122cr7j6ypNFVX1d7/apps"
+            }
+        }
+    },
+    {
+        "id": "00g17ilf5mLqneadg1d7",
+        "created": "2021-08-18T22:28:13.000Z",
+        "lastUpdated": "2021-08-18T22:28:13.000Z",
+        "lastMembershipUpdated": "2021-09-29T05:09:06.000Z",
+        "objectClass": [
+            "okta:user_group"
+        ],
+        "type": "OKTA_GROUP",
+        "profile": {
+            "name": "Deactivated_Users",
+            "description": "Group witth deactivated users"
+        },
+        "_links": {
+            "logo": [
+                {
+                    "name": "medium",
+                    "href": "https://op3static.oktacdn.com/assets/img/logos/groups/odyssey/okta-medium.1a5ebe44c4244fb796c235d86b47e3bb.png",
+                    "type": "image/png"
+                },
+                {
+                    "name": "large",
+                    "href": "https://op3static.oktacdn.com/assets/img/logos/groups/odyssey/okta-large.d9cfbd8a00a4feac1aa5612ba02e99c0.png",
+                    "type": "image/png"
+                }
+            ],
+            "users": {
+                "href": "https://howard.oktapreview.com/api/v1/groups/00g17ilf5mLqneadg1d7/users"
+            },
+            "apps": {
+                "href": "https://howard.oktapreview.com/api/v1/groups/00g17ilf5mLqneadg1d7/apps"
+            }
+        }
+    },
+    {
+        "id": "00g14asx4k1RXYs6c1d7",
+        "created": "2021-08-04T19:24:41.000Z",
+        "lastUpdated": "2021-08-18T17:13:17.000Z",
+        "lastMembershipUpdated": "2021-08-04T19:24:41.000Z",
+        "objectClass": [
+            "okta:user_group"
+        ],
+        "type": "OKTA_GROUP",
+        "profile": {
+            "name": "Disabled_Users",
+            "description": "Group for Disabled users sourced from Active Directory"
+        },
+        "_links": {
+            "logo": [
+                {
+                    "name": "medium",
+                    "href": "https://op3static.oktacdn.com/assets/img/logos/groups/odyssey/okta-medium.1a5ebe44c4244fb796c235d86b47e3bb.png",
+                    "type": "image/png"
+                },
+                {
+                    "name": "large",
+                    "href": "https://op3static.oktacdn.com/assets/img/logos/groups/odyssey/okta-large.d9cfbd8a00a4feac1aa5612ba02e99c0.png",
+                    "type": "image/png"
+                }
+            ],
+            "users": {
+                "href": "https://howard.oktapreview.com/api/v1/groups/00g14asx4k1RXYs6c1d7/users"
+            },
+            "apps": {
+                "href": "https://howard.oktapreview.com/api/v1/groups/00g14asx4k1RXYs6c1d7/apps"
+            }
+        }
+    },
+    {
+        "id": "00gt3gfccltP5Mq5w1d6",
+        "created": "2021-06-07T20:43:04.000Z",
+        "lastUpdated": "2021-06-07T20:43:04.000Z",
+        "lastMembershipUpdated": "2021-10-20T02:23:13.000Z",
+        "objectClass": [
+            "okta:user_group"
+        ],
+        "type": "BUILT_IN",
+        "profile": {
+            "name": "Everyone",
+            "description": "All users in your organization"
+        },
+        "_links": {
+            "logo": [
+                {
+                    "name": "medium",
+                    "href": "https://op3static.oktacdn.com/assets/img/logos/groups/odyssey/okta-medium.1a5ebe44c4244fb796c235d86b47e3bb.png",
+                    "type": "image/png"
+                },
+                {
+                    "name": "large",
+                    "href": "https://op3static.oktacdn.com/assets/img/logos/groups/odyssey/okta-large.d9cfbd8a00a4feac1aa5612ba02e99c0.png",
+                    "type": "image/png"
+                }
+            ],
+            "users": {
+                "href": "https://howard.oktapreview.com/api/v1/groups/00gt3gfccltP5Mq5w1d6/users"
+            },
+            "apps": {
+                "href": "https://howard.oktapreview.com/api/v1/groups/00gt3gfccltP5Mq5w1d6/apps"
+            }
+        }
+    },
+    {
+        "id": "00g1lqmdlc4MUe4561d7",
+        "created": "2021-10-13T13:34:58.000Z",
+        "lastUpdated": "2021-10-20T01:29:00.000Z",
+        "lastMembershipUpdated": "2021-10-13T13:34:58.000Z",
+        "objectClass": [
+            "okta:user_group"
+        ],
+        "type": "APP_GROUP",
+        "profile": {
+            "name": "FinanceReports",
+            "description": null
+        },
+        "source": {
+            "id": "0oa1ib707gIV94l611d7"
+        },
+        "_links": {
+            "logo": [
+                {
+                    "name": "medium",
+                    "href": "https://op3static.oktacdn.com/assets/img/logos/groups/office365-medium.7b7e50f8abb1398a914d9407fcf37f9a.png",
+                    "type": "image/png"
+                },
+                {
+                    "name": "large",
+                    "href": "https://op3static.oktacdn.com/assets/img/logos/groups/office365-large.c0fa98762e7dd7df42c43ac60f36d09b.png",
+                    "type": "image/png"
+                }
+            ],
+            "source": {
+                "href": "https://howard.oktapreview.com/api/v1/apps/0oa1ib707gIV94l611d7"
+            },
+            "users": {
+                "href": "https://howard.oktapreview.com/api/v1/groups/00g1lqmdlc4MUe4561d7/users"
+            },
+            "apps": {
+                "href": "https://howard.oktapreview.com/api/v1/groups/00g1lqmdlc4MUe4561d7/apps"
+            }
+        }
+    },
+    {
+        "id": "00g1lqmdlggsCXrId1d7",
+        "created": "2021-10-13T13:34:58.000Z",
+        "lastUpdated": "2021-10-20T01:29:00.000Z",
+        "lastMembershipUpdated": "2021-10-13T13:34:58.000Z",
+        "objectClass": [
+            "okta:user_group"
+        ],
+        "type": "APP_GROUP",
+        "profile": {
+            "name": "Heavenly Access",
+            "description": "Heavenly Access"
+        },
+        "source": {
+            "id": "0oa1ib707gIV94l611d7"
+        },
+        "_links": {
+            "logo": [
+                {
+                    "name": "medium",
+                    "href": "https://op3static.oktacdn.com/assets/img/logos/groups/office365-medium.7b7e50f8abb1398a914d9407fcf37f9a.png",
+                    "type": "image/png"
+                },
+                {
+                    "name": "large",
+                    "href": "https://op3static.oktacdn.com/assets/img/logos/groups/office365-large.c0fa98762e7dd7df42c43ac60f36d09b.png",
+                    "type": "image/png"
+                }
+            ],
+            "source": {
+                "href": "https://howard.oktapreview.com/api/v1/apps/0oa1ib707gIV94l611d7"
+            },
+            "users": {
+                "href": "https://howard.oktapreview.com/api/v1/groups/00g1lqmdlggsCXrId1d7/users"
+            },
+            "apps": {
+                "href": "https://howard.oktapreview.com/api/v1/groups/00g1lqmdlggsCXrId1d7/apps"
+            }
+        }
+    },
+    {
+        "id": "00g1lqmdls7g4cTZo1d7",
+        "created": "2021-10-13T13:34:58.000Z",
+        "lastUpdated": "2021-10-20T01:29:00.000Z",
+        "lastMembershipUpdated": "2021-10-13T13:34:58.000Z",
+        "objectClass": [
+            "okta:user_group"
+        ],
+        "type": "APP_GROUP",
+        "profile": {
+            "name": "Heavenly Access",
+            "description": "Check here for organization announcements and important info."
+        },
+        "source": {
+            "id": "0oa1ib707gIV94l611d7"
+        },
+        "_links": {
+            "logo": [
+                {
+                    "name": "medium",
+                    "href": "https://op3static.oktacdn.com/assets/img/logos/groups/office365-medium.7b7e50f8abb1398a914d9407fcf37f9a.png",
+                    "type": "image/png"
+                },
+                {
+                    "name": "large",
+                    "href": "https://op3static.oktacdn.com/assets/img/logos/groups/office365-large.c0fa98762e7dd7df42c43ac60f36d09b.png",
+                    "type": "image/png"
+                }
+            ],
+            "source": {
+                "href": "https://howard.oktapreview.com/api/v1/apps/0oa1ib707gIV94l611d7"
+            },
+            "users": {
+                "href": "https://howard.oktapreview.com/api/v1/groups/00g1lqmdls7g4cTZo1d7/users"
+            },
+            "apps": {
+                "href": "https://howard.oktapreview.com/api/v1/groups/00g1lqmdls7g4cTZo1d7/apps"
+            }
+        }
+    },
+    {
+        "id": "00g1lqmdlivQ7TLkP1d7",
+        "created": "2021-10-13T13:34:58.000Z",
+        "lastUpdated": "2021-10-20T01:29:00.000Z",
+        "lastMembershipUpdated": "2021-10-13T13:34:58.000Z",
+        "objectClass": [
+            "okta:user_group"
+        ],
+        "type": "APP_GROUP",
+        "profile": {
+            "name": "HeavenlyAccess",
+            "description": null
+        },
+        "source": {
+            "id": "0oa1ib707gIV94l611d7"
+        },
+        "_links": {
+            "logo": [
+                {
+                    "name": "medium",
+                    "href": "https://op3static.oktacdn.com/assets/img/logos/groups/office365-medium.7b7e50f8abb1398a914d9407fcf37f9a.png",
+                    "type": "image/png"
+                },
+                {
+                    "name": "large",
+                    "href": "https://op3static.oktacdn.com/assets/img/logos/groups/office365-large.c0fa98762e7dd7df42c43ac60f36d09b.png",
+                    "type": "image/png"
+                }
+            ],
+            "source": {
+                "href": "https://howard.oktapreview.com/api/v1/apps/0oa1ib707gIV94l611d7"
+            },
+            "users": {
+                "href": "https://howard.oktapreview.com/api/v1/groups/00g1lqmdlivQ7TLkP1d7/users"
+            },
+            "apps": {
+                "href": "https://howard.oktapreview.com/api/v1/groups/00g1lqmdlivQ7TLkP1d7/apps"
+            }
+        }
+    },
+    {
+        "id": "00g1lqmdlkErbauUg1d7",
+        "created": "2021-10-13T13:34:58.000Z",
+        "lastUpdated": "2021-10-20T01:29:00.000Z",
+        "lastMembershipUpdated": "2021-10-13T13:34:58.000Z",
+        "objectClass": [
+            "okta:user_group"
+        ],
+        "type": "APP_GROUP",
+        "profile": {
+            "name": "HeavenlyAccessUsers",
+            "description": null
+        },
+        "source": {
+            "id": "0oa1ib707gIV94l611d7"
+        },
+        "_links": {
+            "logo": [
+                {
+                    "name": "medium",
+                    "href": "https://op3static.oktacdn.com/assets/img/logos/groups/office365-medium.7b7e50f8abb1398a914d9407fcf37f9a.png",
+                    "type": "image/png"
+                },
+                {
+                    "name": "large",
+                    "href": "https://op3static.oktacdn.com/assets/img/logos/groups/office365-large.c0fa98762e7dd7df42c43ac60f36d09b.png",
+                    "type": "image/png"
+                }
+            ],
+            "source": {
+                "href": "https://howard.oktapreview.com/api/v1/apps/0oa1ib707gIV94l611d7"
+            },
+            "users": {
+                "href": "https://howard.oktapreview.com/api/v1/groups/00g1lqmdlkErbauUg1d7/users"
+            },
+            "apps": {
+                "href": "https://howard.oktapreview.com/api/v1/groups/00g1lqmdlkErbauUg1d7/apps"
+            }
+        }
+    },
+    {
+        "id": "00g17e751i1rILydA1d7",
+        "created": "2021-08-18T17:15:10.000Z",
+        "lastUpdated": "2021-08-18T17:16:00.000Z",
+        "lastMembershipUpdated": "2021-08-18T17:15:10.000Z",
+        "objectClass": [
+            "okta:user_group"
+        ],
+        "type": "OKTA_GROUP",
+        "profile": {
+            "name": "Integration_Testing_Emp",
+            "description": "Test Group for integration testing of new Workday users with No Student profile"
+        },
+        "_links": {
+            "logo": [
+                {
+                    "name": "medium",
+                    "href": "https://op3static.oktacdn.com/assets/img/logos/groups/odyssey/okta-medium.1a5ebe44c4244fb796c235d86b47e3bb.png",
+                    "type": "image/png"
+                },
+                {
+                    "name": "large",
+                    "href": "https://op3static.oktacdn.com/assets/img/logos/groups/odyssey/okta-large.d9cfbd8a00a4feac1aa5612ba02e99c0.png",
+                    "type": "image/png"
+                }
+            ],
+            "users": {
+                "href": "https://howard.oktapreview.com/api/v1/groups/00g17e751i1rILydA1d7/users"
+            },
+            "apps": {
+                "href": "https://howard.oktapreview.com/api/v1/groups/00g17e751i1rILydA1d7/apps"
+            }
+        }
+    },
+    {
+        "id": "00g17edl6gDj3so5b1d7",
+        "created": "2021-08-18T17:16:55.000Z",
+        "lastUpdated": "2021-08-18T17:16:55.000Z",
+        "lastMembershipUpdated": "2021-08-18T17:16:55.000Z",
+        "objectClass": [
+            "okta:user_group"
+        ],
+        "type": "OKTA_GROUP",
+        "profile": {
+            "name": "Integration_Testing_Student",
+            "description": "Test Group for Integration testing of new and changed Workday Users with a Student profile"
+        },
+        "_links": {
+            "logo": [
+                {
+                    "name": "medium",
+                    "href": "https://op3static.oktacdn.com/assets/img/logos/groups/odyssey/okta-medium.1a5ebe44c4244fb796c235d86b47e3bb.png",
+                    "type": "image/png"
+                },
+                {
+                    "name": "large",
+                    "href": "https://op3static.oktacdn.com/assets/img/logos/groups/odyssey/okta-large.d9cfbd8a00a4feac1aa5612ba02e99c0.png",
+                    "type": "image/png"
+                }
+            ],
+            "users": {
+                "href": "https://howard.oktapreview.com/api/v1/groups/00g17edl6gDj3so5b1d7/users"
+            },
+            "apps": {
+                "href": "https://howard.oktapreview.com/api/v1/groups/00g17edl6gDj3so5b1d7/apps"
+            }
+        }
+    },
+    {
+        "id": "00g1lqmdloqwullv31d7",
+        "created": "2021-10-13T13:34:58.000Z",
+        "lastUpdated": "2021-10-20T01:29:00.000Z",
+        "lastMembershipUpdated": "2021-10-13T13:34:58.000Z",
+        "objectClass": [
+            "okta:user_group"
+        ],
+        "type": "APP_GROUP",
+        "profile": {
+            "name": "PasswordReset",
+            "description": null
+        },
+        "source": {
+            "id": "0oa1ib707gIV94l611d7"
+        },
+        "_links": {
+            "logo": [
+                {
+                    "name": "medium",
+                    "href": "https://op3static.oktacdn.com/assets/img/logos/groups/office365-medium.7b7e50f8abb1398a914d9407fcf37f9a.png",
+                    "type": "image/png"
+                },
+                {
+                    "name": "large",
+                    "href": "https://op3static.oktacdn.com/assets/img/logos/groups/office365-large.c0fa98762e7dd7df42c43ac60f36d09b.png",
+                    "type": "image/png"
+                }
+            ],
+            "source": {
+                "href": "https://howard.oktapreview.com/api/v1/apps/0oa1ib707gIV94l611d7"
+            },
+            "users": {
+                "href": "https://howard.oktapreview.com/api/v1/groups/00g1lqmdloqwullv31d7/users"
+            },
+            "apps": {
+                "href": "https://howard.oktapreview.com/api/v1/groups/00g1lqmdloqwullv31d7/apps"
+            }
+        }
+    },
+    {
+        "id": "00g1lqmdlmBE1tKNU1d7",
+        "created": "2021-10-13T13:34:58.000Z",
+        "lastUpdated": "2021-10-20T01:29:00.000Z",
+        "lastMembershipUpdated": "2021-10-13T13:34:58.000Z",
+        "objectClass": [
+            "okta:user_group"
+        ],
+        "type": "APP_GROUP",
+        "profile": {
+            "name": "SSB_Pass",
+            "description": null
+        },
+        "source": {
+            "id": "0oa1ib707gIV94l611d7"
+        },
+        "_links": {
+            "logo": [
+                {
+                    "name": "medium",
+                    "href": "https://op3static.oktacdn.com/assets/img/logos/groups/office365-medium.7b7e50f8abb1398a914d9407fcf37f9a.png",
+                    "type": "image/png"
+                },
+                {
+                    "name": "large",
+                    "href": "https://op3static.oktacdn.com/assets/img/logos/groups/office365-large.c0fa98762e7dd7df42c43ac60f36d09b.png",
+                    "type": "image/png"
+                }
+            ],
+            "source": {
+                "href": "https://howard.oktapreview.com/api/v1/apps/0oa1ib707gIV94l611d7"
+            },
+            "users": {
+                "href": "https://howard.oktapreview.com/api/v1/groups/00g1lqmdlmBE1tKNU1d7/users"
+            },
+            "apps": {
+                "href": "https://howard.oktapreview.com/api/v1/groups/00g1lqmdlmBE1tKNU1d7/apps"
+            }
+        }
+    },
+    {
+        "id": "00g122d72twxe359a1d7",
+        "created": "2021-07-23T21:18:49.000Z",
+        "lastUpdated": "2021-08-03T21:12:58.000Z",
+        "lastMembershipUpdated": "2021-10-22T18:18:48.000Z",
+        "objectClass": [
+            "okta:user_group"
+        ],
+        "type": "OKTA_GROUP",
+        "profile": {
+            "name": "Staff",
+            "description": "Staff Affiliation Group for Regular employees"
+        },
+        "_links": {
+            "logo": [
+                {
+                    "name": "medium",
+                    "href": "https://op3static.oktacdn.com/assets/img/logos/groups/odyssey/okta-medium.1a5ebe44c4244fb796c235d86b47e3bb.png",
+                    "type": "image/png"
+                },
+                {
+                    "name": "large",
+                    "href": "https://op3static.oktacdn.com/assets/img/logos/groups/odyssey/okta-large.d9cfbd8a00a4feac1aa5612ba02e99c0.png",
+                    "type": "image/png"
+                }
+            ],
+            "users": {
+                "href": "https://howard.oktapreview.com/api/v1/groups/00g122d72twxe359a1d7/users"
+            },
+            "apps": {
+                "href": "https://howard.oktapreview.com/api/v1/groups/00g122d72twxe359a1d7/apps"
+            }
+        }
+    },
+    {
+        "id": "00g174wypyhRrQDtb1d7",
+        "created": "2021-08-18T04:27:35.000Z",
+        "lastUpdated": "2021-08-18T04:27:35.000Z",
+        "lastMembershipUpdated": "2021-08-18T04:27:35.000Z",
+        "objectClass": [
+            "okta:user_group"
+        ],
+        "type": "OKTA_GROUP",
+        "profile": {
+            "name": "Terminated _NoCollegeDesignated",
+            "description": "Terminated users with Student Role at No College Designated"
+        },
+        "_links": {
+            "logo": [
+                {
+                    "name": "medium",
+                    "href": "https://op3static.oktacdn.com/assets/img/logos/groups/odyssey/okta-medium.1a5ebe44c4244fb796c235d86b47e3bb.png",
+                    "type": "image/png"
+                },
+                {
+                    "name": "large",
+                    "href": "https://op3static.oktacdn.com/assets/img/logos/groups/odyssey/okta-large.d9cfbd8a00a4feac1aa5612ba02e99c0.png",
+                    "type": "image/png"
+                }
+            ],
+            "users": {
+                "href": "https://howard.oktapreview.com/api/v1/groups/00g174wypyhRrQDtb1d7/users"
+            },
+            "apps": {
+                "href": "https://howard.oktapreview.com/api/v1/groups/00g174wypyhRrQDtb1d7/apps"
+            }
+        }
+    },
+    {
+        "id": "00g174zih5jUPd5Py1d7",
+        "created": "2021-08-18T04:31:11.000Z",
+        "lastUpdated": "2021-08-18T04:31:11.000Z",
+        "lastMembershipUpdated": "2021-08-18T04:31:11.000Z",
+        "objectClass": [
+            "okta:user_group"
+        ],
+        "type": "OKTA_GROUP",
+        "profile": {
+            "name": "Terminated_CollegeofArts&Sciences",
+            "description": "Terminated users with Student role at College of Arts & Sciences"
+        },
+        "_links": {
+            "logo": [
+                {
+                    "name": "medium",
+                    "href": "https://op3static.oktacdn.com/assets/img/logos/groups/odyssey/okta-medium.1a5ebe44c4244fb796c235d86b47e3bb.png",
+                    "type": "image/png"
+                },
+                {
+                    "name": "large",
+                    "href": "https://op3static.oktacdn.com/assets/img/logos/groups/odyssey/okta-large.d9cfbd8a00a4feac1aa5612ba02e99c0.png",
+                    "type": "image/png"
+                }
+            ],
+            "users": {
+                "href": "https://howard.oktapreview.com/api/v1/groups/00g174zih5jUPd5Py1d7/users"
+            },
+            "apps": {
+                "href": "https://howard.oktapreview.com/api/v1/groups/00g174zih5jUPd5Py1d7/apps"
+            }
+        }
+    },
+    {
+        "id": "00g174ssr4hqF3q0W1d7",
+        "created": "2021-08-18T04:28:52.000Z",
+        "lastUpdated": "2021-08-18T04:28:52.000Z",
+        "lastMembershipUpdated": "2021-08-18T04:28:52.000Z",
+        "objectClass": [
+            "okta:user_group"
+        ],
+        "type": "OKTA_GROUP",
+        "profile": {
+            "name": "Terminated_CollegeofDentistry",
+            "description": "Terminated users with Student role at College of Dentistry"
+        },
+        "_links": {
+            "logo": [
+                {
+                    "name": "medium",
+                    "href": "https://op3static.oktacdn.com/assets/img/logos/groups/odyssey/okta-medium.1a5ebe44c4244fb796c235d86b47e3bb.png",
+                    "type": "image/png"
+                },
+                {
+                    "name": "large",
+                    "href": "https://op3static.oktacdn.com/assets/img/logos/groups/odyssey/okta-large.d9cfbd8a00a4feac1aa5612ba02e99c0.png",
+                    "type": "image/png"
+                }
+            ],
+            "users": {
+                "href": "https://howard.oktapreview.com/api/v1/groups/00g174ssr4hqF3q0W1d7/users"
+            },
+            "apps": {
+                "href": "https://howard.oktapreview.com/api/v1/groups/00g174ssr4hqF3q0W1d7/apps"
+            }
+        }
+    },
+    {
+        "id": "00g174wspkS21qtZI1d7",
+        "created": "2021-08-18T04:26:54.000Z",
+        "lastUpdated": "2021-08-18T04:26:54.000Z",
+        "lastMembershipUpdated": "2021-08-18T04:26:54.000Z",
+        "objectClass": [
+            "okta:user_group"
+        ],
+        "type": "OKTA_GROUP",
+        "profile": {
+            "name": "Terminated_CollegeofEngineering&Arch",
+            "description": "Terminated users with Student role at College of Engineering & Arch"
+        },
+        "_links": {
+            "logo": [
+                {
+                    "name": "medium",
+                    "href": "https://op3static.oktacdn.com/assets/img/logos/groups/odyssey/okta-medium.1a5ebe44c4244fb796c235d86b47e3bb.png",
+                    "type": "image/png"
+                },
+                {
+                    "name": "large",
+                    "href": "https://op3static.oktacdn.com/assets/img/logos/groups/odyssey/okta-large.d9cfbd8a00a4feac1aa5612ba02e99c0.png",
+                    "type": "image/png"
+                }
+            ],
+            "users": {
+                "href": "https://howard.oktapreview.com/api/v1/groups/00g174wspkS21qtZI1d7/users"
+            },
+            "apps": {
+                "href": "https://howard.oktapreview.com/api/v1/groups/00g174wspkS21qtZI1d7/apps"
+            }
+        }
+    },
+    {
+        "id": "00g17558dyuIJEepe1d7",
+        "created": "2021-08-18T04:51:29.000Z",
+        "lastUpdated": "2021-08-18T04:51:29.000Z",
+        "lastMembershipUpdated": "2021-08-18T04:51:29.000Z",
+        "objectClass": [
+            "okta:user_group"
+        ],
+        "type": "OKTA_GROUP",
+        "profile": {
+            "name": "Terminated_CollegeofEngrgArchCompSci",
+            "description": "Terminated users in Workday with Student role at College of Engrg Arch Comp Sci"
+        },
+        "_links": {
+            "logo": [
+                {
+                    "name": "medium",
+                    "href": "https://op3static.oktacdn.com/assets/img/logos/groups/odyssey/okta-medium.1a5ebe44c4244fb796c235d86b47e3bb.png",
+                    "type": "image/png"
+                },
+                {
+                    "name": "large",
+                    "href": "https://op3static.oktacdn.com/assets/img/logos/groups/odyssey/okta-large.d9cfbd8a00a4feac1aa5612ba02e99c0.png",
+                    "type": "image/png"
+                }
+            ],
+            "users": {
+                "href": "https://howard.oktapreview.com/api/v1/groups/00g17558dyuIJEepe1d7/users"
+            },
+            "apps": {
+                "href": "https://howard.oktapreview.com/api/v1/groups/00g17558dyuIJEepe1d7/apps"
+            }
+        }
+    },
+    {
+        "id": "00g174vfhaQQaHc6s1d7",
+        "created": "2021-08-18T04:28:05.000Z",
+        "lastUpdated": "2021-08-18T04:28:05.000Z",
+        "lastMembershipUpdated": "2021-08-18T04:28:05.000Z",
+        "objectClass": [
+            "okta:user_group"
+        ],
+        "type": "OKTA_GROUP",
+        "profile": {
+            "name": "Terminated_CollegeofMedicine",
+            "description": "Terminated users with Student role at College of Medicine"
+        },
+        "_links": {
+            "logo": [
+                {
+                    "name": "medium",
+                    "href": "https://op3static.oktacdn.com/assets/img/logos/groups/odyssey/okta-medium.1a5ebe44c4244fb796c235d86b47e3bb.png",
+                    "type": "image/png"
+                },
+                {
+                    "name": "large",
+                    "href": "https://op3static.oktacdn.com/assets/img/logos/groups/odyssey/okta-large.d9cfbd8a00a4feac1aa5612ba02e99c0.png",
+                    "type": "image/png"
+                }
+            ],
+            "users": {
+                "href": "https://howard.oktapreview.com/api/v1/groups/00g174vfhaQQaHc6s1d7/users"
+            },
+            "apps": {
+                "href": "https://howard.oktapreview.com/api/v1/groups/00g174vfhaQQaHc6s1d7/apps"
+            }
+        }
+    },
+    {
+        "id": "00g174yfwbs7WpSRA1d7",
+        "created": "2021-08-18T04:25:59.000Z",
+        "lastUpdated": "2021-08-18T04:25:59.000Z",
+        "lastMembershipUpdated": "2021-08-18T04:25:59.000Z",
+        "objectClass": [
+            "okta:user_group"
+        ],
+        "type": "OKTA_GROUP",
+        "profile": {
+            "name": "Terminated_CollegeofNurs&AHSci",
+            "description": "Terminated users with Student role at College of Nurs & AH Sci"
+        },
+        "_links": {
+            "logo": [
+                {
+                    "name": "medium",
+                    "href": "https://op3static.oktacdn.com/assets/img/logos/groups/odyssey/okta-medium.1a5ebe44c4244fb796c235d86b47e3bb.png",
+                    "type": "image/png"
+                },
+                {
+                    "name": "large",
+                    "href": "https://op3static.oktacdn.com/assets/img/logos/groups/odyssey/okta-large.d9cfbd8a00a4feac1aa5612ba02e99c0.png",
+                    "type": "image/png"
+                }
+            ],
+            "users": {
+                "href": "https://howard.oktapreview.com/api/v1/groups/00g174yfwbs7WpSRA1d7/users"
+            },
+            "apps": {
+                "href": "https://howard.oktapreview.com/api/v1/groups/00g174yfwbs7WpSRA1d7/apps"
+            }
+        }
+    },
+    {
+        "id": "00g16ds62dqk9sth71d7",
+        "created": "2021-08-15T05:04:02.000Z",
+        "lastUpdated": "2021-08-18T04:19:24.000Z",
+        "lastMembershipUpdated": "2021-08-15T05:04:02.000Z",
+        "objectClass": [
+            "okta:user_group"
+        ],
+        "type": "OKTA_GROUP",
+        "profile": {
+            "name": "Terminated_CollegeofPharmacy",
+            "description": "Employees with Student role in Collge of Pharmacy terminated in Workday"
+        },
+        "_links": {
+            "logo": [
+                {
+                    "name": "medium",
+                    "href": "https://op3static.oktacdn.com/assets/img/logos/groups/odyssey/okta-medium.1a5ebe44c4244fb796c235d86b47e3bb.png",
+                    "type": "image/png"
+                },
+                {
+                    "name": "large",
+                    "href": "https://op3static.oktacdn.com/assets/img/logos/groups/odyssey/okta-large.d9cfbd8a00a4feac1aa5612ba02e99c0.png",
+                    "type": "image/png"
+                }
+            ],
+            "users": {
+                "href": "https://howard.oktapreview.com/api/v1/groups/00g16ds62dqk9sth71d7/users"
+            },
+            "apps": {
+                "href": "https://howard.oktapreview.com/api/v1/groups/00g16ds62dqk9sth71d7/apps"
+            }
+        }
+    },
+    {
+        "id": "00g174rp8yhjE4EyK1d7",
+        "created": "2021-08-18T04:21:47.000Z",
+        "lastUpdated": "2021-08-18T04:21:47.000Z",
+        "lastMembershipUpdated": "2021-08-18T04:21:47.000Z",
+        "objectClass": [
+            "okta:user_group"
+        ],
+        "type": "OKTA_GROUP",
+        "profile": {
+            "name": "Terminated_ConsortiumofUniversities",
+            "description": "Group with users terminated in Workday and have Student role in Consortium of Universities"
+        },
+        "_links": {
+            "logo": [
+                {
+                    "name": "medium",
+                    "href": "https://op3static.oktacdn.com/assets/img/logos/groups/odyssey/okta-medium.1a5ebe44c4244fb796c235d86b47e3bb.png",
+                    "type": "image/png"
+                },
+                {
+                    "name": "large",
+                    "href": "https://op3static.oktacdn.com/assets/img/logos/groups/odyssey/okta-large.d9cfbd8a00a4feac1aa5612ba02e99c0.png",
+                    "type": "image/png"
+                }
+            ],
+            "users": {
+                "href": "https://howard.oktapreview.com/api/v1/groups/00g174rp8yhjE4EyK1d7/users"
+            },
+            "apps": {
+                "href": "https://howard.oktapreview.com/api/v1/groups/00g174rp8yhjE4EyK1d7/apps"
+            }
+        }
+    },
+    {
+        "id": "00g1754oddjYdm7u01d7",
+        "created": "2021-08-18T04:52:38.000Z",
+        "lastUpdated": "2021-08-18T04:52:38.000Z",
+        "lastMembershipUpdated": "2021-08-18T04:52:38.000Z",
+        "objectClass": [
+            "okta:user_group"
+        ],
+        "type": "OKTA_GROUP",
+        "profile": {
+            "name": "Terminated_ExchangeTE",
+            "description": "Terminated users in Workday with Student role at Exchange (TE)"
+        },
+        "_links": {
+            "logo": [
+                {
+                    "name": "medium",
+                    "href": "https://op3static.oktacdn.com/assets/img/logos/groups/odyssey/okta-medium.1a5ebe44c4244fb796c235d86b47e3bb.png",
+                    "type": "image/png"
+                },
+                {
+                    "name": "large",
+                    "href": "https://op3static.oktacdn.com/assets/img/logos/groups/odyssey/okta-large.d9cfbd8a00a4feac1aa5612ba02e99c0.png",
+                    "type": "image/png"
+                }
+            ],
+            "users": {
+                "href": "https://howard.oktapreview.com/api/v1/groups/00g1754oddjYdm7u01d7/users"
+            },
+            "apps": {
+                "href": "https://howard.oktapreview.com/api/v1/groups/00g1754oddjYdm7u01d7/apps"
+            }
+        }
+    },
+    {
+        "id": "00g174we5kHghLdF31d7",
+        "created": "2021-08-18T04:29:54.000Z",
+        "lastUpdated": "2021-08-18T04:29:54.000Z",
+        "lastMembershipUpdated": "2021-08-18T04:29:54.000Z",
+        "objectClass": [
+            "okta:user_group"
+        ],
+        "type": "OKTA_GROUP",
+        "profile": {
+            "name": "Terminated_GraduateSchool",
+            "description": "Terminated users with Student Role at Graduate School"
+        },
+        "_links": {
+            "logo": [
+                {
+                    "name": "medium",
+                    "href": "https://op3static.oktacdn.com/assets/img/logos/groups/odyssey/okta-medium.1a5ebe44c4244fb796c235d86b47e3bb.png",
+                    "type": "image/png"
+                },
+                {
+                    "name": "large",
+                    "href": "https://op3static.oktacdn.com/assets/img/logos/groups/odyssey/okta-large.d9cfbd8a00a4feac1aa5612ba02e99c0.png",
+                    "type": "image/png"
+                }
+            ],
+            "users": {
+                "href": "https://howard.oktapreview.com/api/v1/groups/00g174we5kHghLdF31d7/users"
+            },
+            "apps": {
+                "href": "https://howard.oktapreview.com/api/v1/groups/00g174we5kHghLdF31d7/apps"
+            }
+        }
+    },
+    {
+        "id": "00g16drvcb4lOFOls1d7",
+        "created": "2021-08-15T05:04:41.000Z",
+        "lastUpdated": "2021-08-18T04:19:38.000Z",
+        "lastMembershipUpdated": "2021-08-24T02:34:55.000Z",
+        "objectClass": [
+            "okta:user_group"
+        ],
+        "type": "OKTA_GROUP",
+        "profile": {
+            "name": "Terminated_not_student",
+            "description": "Employees with no student role terminated in Workday"
+        },
+        "_links": {
+            "logo": [
+                {
+                    "name": "medium",
+                    "href": "https://op3static.oktacdn.com/assets/img/logos/groups/odyssey/okta-medium.1a5ebe44c4244fb796c235d86b47e3bb.png",
+                    "type": "image/png"
+                },
+                {
+                    "name": "large",
+                    "href": "https://op3static.oktacdn.com/assets/img/logos/groups/odyssey/okta-large.d9cfbd8a00a4feac1aa5612ba02e99c0.png",
+                    "type": "image/png"
+                }
+            ],
+            "users": {
+                "href": "https://howard.oktapreview.com/api/v1/groups/00g16drvcb4lOFOls1d7/users"
+            },
+            "apps": {
+                "href": "https://howard.oktapreview.com/api/v1/groups/00g16drvcb4lOFOls1d7/apps"
+            }
+        }
+    },
+    {
+        "id": "00g174x3xtLYICLge1d7",
+        "created": "2021-08-18T04:17:56.000Z",
+        "lastUpdated": "2021-08-18T04:19:08.000Z",
+        "lastMembershipUpdated": "2021-08-18T04:17:56.000Z",
+        "objectClass": [
+            "okta:user_group"
+        ],
+        "type": "OKTA_GROUP",
+        "profile": {
+            "name": "Terminated_SchoolofBusiness",
+            "description": "Group for users terminated in Workday but have Student role in School of Business"
+        },
+        "_links": {
+            "logo": [
+                {
+                    "name": "medium",
+                    "href": "https://op3static.oktacdn.com/assets/img/logos/groups/odyssey/okta-medium.1a5ebe44c4244fb796c235d86b47e3bb.png",
+                    "type": "image/png"
+                },
+                {
+                    "name": "large",
+                    "href": "https://op3static.oktacdn.com/assets/img/logos/groups/odyssey/okta-large.d9cfbd8a00a4feac1aa5612ba02e99c0.png",
+                    "type": "image/png"
+                }
+            ],
+            "users": {
+                "href": "https://howard.oktapreview.com/api/v1/groups/00g174x3xtLYICLge1d7/users"
+            },
+            "apps": {
+                "href": "https://howard.oktapreview.com/api/v1/groups/00g174x3xtLYICLge1d7/apps"
+            }
+        }
+    },
+    {
+        "id": "00g174wiapl0JXk161d7",
+        "created": "2021-08-18T04:18:51.000Z",
+        "lastUpdated": "2021-08-18T04:18:51.000Z",
+        "lastMembershipUpdated": "2021-08-18T04:18:51.000Z",
+        "objectClass": [
+            "okta:user_group"
+        ],
+        "type": "OKTA_GROUP",
+        "profile": {
+            "name": "Terminated_SchoolofCommunications",
+            "description": "Group with users terrminated in Workday and have Student role in School of Communications"
+        },
+        "_links": {
+            "logo": [
+                {
+                    "name": "medium",
+                    "href": "https://op3static.oktacdn.com/assets/img/logos/groups/odyssey/okta-medium.1a5ebe44c4244fb796c235d86b47e3bb.png",
+                    "type": "image/png"
+                },
+                {
+                    "name": "large",
+                    "href": "https://op3static.oktacdn.com/assets/img/logos/groups/odyssey/okta-large.d9cfbd8a00a4feac1aa5612ba02e99c0.png",
+                    "type": "image/png"
+                }
+            ],
+            "users": {
+                "href": "https://howard.oktapreview.com/api/v1/groups/00g174wiapl0JXk161d7/users"
+            },
+            "apps": {
+                "href": "https://howard.oktapreview.com/api/v1/groups/00g174wiapl0JXk161d7/apps"
+            }
+        }
+    },
+    {
+        "id": "00g174up5vDUK67Om1d7",
+        "created": "2021-08-18T04:23:10.000Z",
+        "lastUpdated": "2021-08-18T04:23:10.000Z",
+        "lastMembershipUpdated": "2021-08-18T04:23:10.000Z",
+        "objectClass": [
+            "okta:user_group"
+        ],
+        "type": "OKTA_GROUP",
+        "profile": {
+            "name": "Terminated_SchoolofDivinity",
+            "description": "Group with users terminated in Workday and have Student role in School of Divinity"
+        },
+        "_links": {
+            "logo": [
+                {
+                    "name": "medium",
+                    "href": "https://op3static.oktacdn.com/assets/img/logos/groups/odyssey/okta-medium.1a5ebe44c4244fb796c235d86b47e3bb.png",
+                    "type": "image/png"
+                },
+                {
+                    "name": "large",
+                    "href": "https://op3static.oktacdn.com/assets/img/logos/groups/odyssey/okta-large.d9cfbd8a00a4feac1aa5612ba02e99c0.png",
+                    "type": "image/png"
+                }
+            ],
+            "users": {
+                "href": "https://howard.oktapreview.com/api/v1/groups/00g174up5vDUK67Om1d7/users"
+            },
+            "apps": {
+                "href": "https://howard.oktapreview.com/api/v1/groups/00g174up5vDUK67Om1d7/apps"
+            }
+        }
+    },
+    {
+        "id": "00g174y1vrrO8uLEQ1d7",
+        "created": "2021-08-18T04:20:59.000Z",
+        "lastUpdated": "2021-08-18T04:20:59.000Z",
+        "lastMembershipUpdated": "2021-08-18T04:20:59.000Z",
+        "objectClass": [
+            "okta:user_group"
+        ],
+        "type": "OKTA_GROUP",
+        "profile": {
+            "name": "Terminated_SchoolofEducation",
+            "description": "Group with users terminated in Workday and have Student role in School of Education"
+        },
+        "_links": {
+            "logo": [
+                {
+                    "name": "medium",
+                    "href": "https://op3static.oktacdn.com/assets/img/logos/groups/odyssey/okta-medium.1a5ebe44c4244fb796c235d86b47e3bb.png",
+                    "type": "image/png"
+                },
+                {
+                    "name": "large",
+                    "href": "https://op3static.oktacdn.com/assets/img/logos/groups/odyssey/okta-large.d9cfbd8a00a4feac1aa5612ba02e99c0.png",
+                    "type": "image/png"
+                }
+            ],
+            "users": {
+                "href": "https://howard.oktapreview.com/api/v1/groups/00g174y1vrrO8uLEQ1d7/users"
+            },
+            "apps": {
+                "href": "https://howard.oktapreview.com/api/v1/groups/00g174y1vrrO8uLEQ1d7/apps"
+            }
+        }
+    },
+    {
+        "id": "00g174t2zfNwIAVKG1d7",
+        "created": "2021-08-18T04:16:57.000Z",
+        "lastUpdated": "2021-08-18T04:19:53.000Z",
+        "lastMembershipUpdated": "2021-08-18T04:16:57.000Z",
+        "objectClass": [
+            "okta:user_group"
+        ],
+        "type": "OKTA_GROUP",
+        "profile": {
+            "name": "Terminated_SchoolofLaw",
+            "description": "Group for users terminated in Workday, having Student role in School of Law"
+        },
+        "_links": {
+            "logo": [
+                {
+                    "name": "medium",
+                    "href": "https://op3static.oktacdn.com/assets/img/logos/groups/odyssey/okta-medium.1a5ebe44c4244fb796c235d86b47e3bb.png",
+                    "type": "image/png"
+                },
+                {
+                    "name": "large",
+                    "href": "https://op3static.oktacdn.com/assets/img/logos/groups/odyssey/okta-large.d9cfbd8a00a4feac1aa5612ba02e99c0.png",
+                    "type": "image/png"
+                }
+            ],
+            "users": {
+                "href": "https://howard.oktapreview.com/api/v1/groups/00g174t2zfNwIAVKG1d7/users"
+            },
+            "apps": {
+                "href": "https://howard.oktapreview.com/api/v1/groups/00g174t2zfNwIAVKG1d7/apps"
+            }
+        }
+    },
+    {
+        "id": "00g174r3m4j77Jeyq1d7",
+        "created": "2021-08-18T04:22:26.000Z",
+        "lastUpdated": "2021-08-18T04:22:26.000Z",
+        "lastMembershipUpdated": "2021-08-18T04:22:26.000Z",
+        "objectClass": [
+            "okta:user_group"
+        ],
+        "type": "OKTA_GROUP",
+        "profile": {
+            "name": "Terminated_SchoolofSocial Work",
+            "description": "Group with users terminated in Workday and have Student role in School of Social Work"
+        },
+        "_links": {
+            "logo": [
+                {
+                    "name": "medium",
+                    "href": "https://op3static.oktacdn.com/assets/img/logos/groups/odyssey/okta-medium.1a5ebe44c4244fb796c235d86b47e3bb.png",
+                    "type": "image/png"
+                },
+                {
+                    "name": "large",
+                    "href": "https://op3static.oktacdn.com/assets/img/logos/groups/odyssey/okta-large.d9cfbd8a00a4feac1aa5612ba02e99c0.png",
+                    "type": "image/png"
+                }
+            ],
+            "users": {
+                "href": "https://howard.oktapreview.com/api/v1/groups/00g174r3m4j77Jeyq1d7/users"
+            },
+            "apps": {
+                "href": "https://howard.oktapreview.com/api/v1/groups/00g174r3m4j77Jeyq1d7/apps"
+            }
+        }
+    },
+    {
+        "id": "00g174vfb0BmZ2dvd1d7",
+        "created": "2021-08-18T04:24:06.000Z",
+        "lastUpdated": "2021-08-18T04:24:06.000Z",
+        "lastMembershipUpdated": "2021-08-18T04:24:06.000Z",
+        "objectClass": [
+            "okta:user_group"
+        ],
+        "type": "OKTA_GROUP",
+        "profile": {
+            "name": "Terminated_Undecided",
+            "description": "Group with users terminated in Workday and have Student role Undecided"
+        },
+        "_links": {
+            "logo": [
+                {
+                    "name": "medium",
+                    "href": "https://op3static.oktacdn.com/assets/img/logos/groups/odyssey/okta-medium.1a5ebe44c4244fb796c235d86b47e3bb.png",
+                    "type": "image/png"
+                },
+                {
+                    "name": "large",
+                    "href": "https://op3static.oktacdn.com/assets/img/logos/groups/odyssey/okta-large.d9cfbd8a00a4feac1aa5612ba02e99c0.png",
+                    "type": "image/png"
+                }
+            ],
+            "users": {
+                "href": "https://howard.oktapreview.com/api/v1/groups/00g174vfb0BmZ2dvd1d7/users"
+            },
+            "apps": {
+                "href": "https://howard.oktapreview.com/api/v1/groups/00g174vfb0BmZ2dvd1d7/apps"
+            }
+        }
+    },
+    {
+        "id": "00g1lqmdluyg8bzTc1d7",
+        "created": "2021-10-13T13:34:58.000Z",
+        "lastUpdated": "2021-10-20T01:29:00.000Z",
+        "lastMembershipUpdated": "2021-10-13T13:34:58.000Z",
+        "objectClass": [
+            "okta:user_group"
+        ],
+        "type": "APP_GROUP",
+        "profile": {
+            "name": "The Light",
+            "description": "II Chronicles 7:14   \nIf my people which are called by my name shall humble themselves and pray and seek my face and turn from their wicked ways: then will I hear from Heaven and will forgive their sins, and will heal their land"
+        },
+        "source": {
+            "id": "0oa1ib707gIV94l611d7"
+        },
+        "_links": {
+            "logo": [
+                {
+                    "name": "medium",
+                    "href": "https://op3static.oktacdn.com/assets/img/logos/groups/office365-medium.7b7e50f8abb1398a914d9407fcf37f9a.png",
+                    "type": "image/png"
+                },
+                {
+                    "name": "large",
+                    "href": "https://op3static.oktacdn.com/assets/img/logos/groups/office365-large.c0fa98762e7dd7df42c43ac60f36d09b.png",
+                    "type": "image/png"
+                }
+            ],
+            "source": {
+                "href": "https://howard.oktapreview.com/api/v1/apps/0oa1ib707gIV94l611d7"
+            },
+            "users": {
+                "href": "https://howard.oktapreview.com/api/v1/groups/00g1lqmdluyg8bzTc1d7/users"
+            },
+            "apps": {
+                "href": "https://howard.oktapreview.com/api/v1/groups/00g1lqmdluyg8bzTc1d7/apps"
+            }
+        }
+    },
+    {
+        "id": "00g155bvdvFoAgT4m1d7",
+        "created": "2021-08-06T21:00:57.000Z",
+        "lastUpdated": "2021-08-06T21:00:57.000Z",
+        "lastMembershipUpdated": "2021-10-20T02:25:36.000Z",
+        "objectClass": [
+            "okta:user_group"
+        ],
+        "type": "OKTA_GROUP",
+        "profile": {
+            "name": "Visitors",
+            "description": "Group for POI, Consultant, Contractors."
+        },
+        "_links": {
+            "logo": [
+                {
+                    "name": "medium",
+                    "href": "https://op3static.oktacdn.com/assets/img/logos/groups/odyssey/okta-medium.1a5ebe44c4244fb796c235d86b47e3bb.png",
+                    "type": "image/png"
+                },
+                {
+                    "name": "large",
+                    "href": "https://op3static.oktacdn.com/assets/img/logos/groups/odyssey/okta-large.d9cfbd8a00a4feac1aa5612ba02e99c0.png",
+                    "type": "image/png"
+                }
+            ],
+            "users": {
+                "href": "https://howard.oktapreview.com/api/v1/groups/00g155bvdvFoAgT4m1d7/users"
+            },
+            "apps": {
+                "href": "https://howard.oktapreview.com/api/v1/groups/00g155bvdvFoAgT4m1d7/apps"
+            }
+        }
+    },
+    {
+        "id": "00g122ckl8W8aljNg1d7",
+        "created": "2021-07-23T21:19:55.000Z",
+        "lastUpdated": "2021-08-03T21:13:32.000Z",
+        "lastMembershipUpdated": "2021-10-08T14:46:55.000Z",
+        "objectClass": [
+            "okta:user_group"
+        ],
+        "type": "OKTA_GROUP",
+        "profile": {
+            "name": "Wage",
+            "description": "Wage affiliation group for Students, Temporary Wage and Contingent Workers"
+        },
+        "_links": {
+            "logo": [
+                {
+                    "name": "medium",
+                    "href": "https://op3static.oktacdn.com/assets/img/logos/groups/odyssey/okta-medium.1a5ebe44c4244fb796c235d86b47e3bb.png",
+                    "type": "image/png"
+                },
+                {
+                    "name": "large",
+                    "href": "https://op3static.oktacdn.com/assets/img/logos/groups/odyssey/okta-large.d9cfbd8a00a4feac1aa5612ba02e99c0.png",
+                    "type": "image/png"
+                }
+            ],
+            "users": {
+                "href": "https://howard.oktapreview.com/api/v1/groups/00g122ckl8W8aljNg1d7/users"
+            },
+            "apps": {
+                "href": "https://howard.oktapreview.com/api/v1/groups/00g122ckl8W8aljNg1d7/apps"
+            }
+        }
+    },
+    {
+        "id": "00g1cuainjQe5Ybwx1d7",
+        "created": "2021-09-11T17:50:30.000Z",
+        "lastUpdated": "2021-09-11T22:31:38.000Z",
+        "lastMembershipUpdated": "2021-09-21T03:25:49.000Z",
+        "objectClass": [
+            "okta:user_group"
+        ],
+        "type": "OKTA_GROUP",
+        "profile": {
+            "name": "Workday_Access",
+            "description": "Access Group for Workday using Yubikey"
+        },
+        "_links": {
+            "logo": [
+                {
+                    "name": "medium",
+                    "href": "https://op3static.oktacdn.com/assets/img/logos/groups/odyssey/okta-medium.1a5ebe44c4244fb796c235d86b47e3bb.png",
+                    "type": "image/png"
+                },
+                {
+                    "name": "large",
+                    "href": "https://op3static.oktacdn.com/assets/img/logos/groups/odyssey/okta-large.d9cfbd8a00a4feac1aa5612ba02e99c0.png",
+                    "type": "image/png"
+                }
+            ],
+            "users": {
+                "href": "https://howard.oktapreview.com/api/v1/groups/00g1cuainjQe5Ybwx1d7/users"
+            },
+            "apps": {
+                "href": "https://howard.oktapreview.com/api/v1/groups/00g1cuainjQe5Ybwx1d7/apps"
+            }
+        }
+    },
+    {
+        "id": "00g1nu06qyIGzYerd1d7",
+        "created": "2021-10-22T18:05:54.000Z",
+        "lastUpdated": "2021-10-22T18:05:54.000Z",
+        "lastMembershipUpdated": "2021-10-22T18:17:59.000Z",
+        "objectClass": [
+            "okta:user_group"
+        ],
+        "type": "OKTA_GROUP",
+        "profile": {
+            "name": "Workday_Howard4_Access",
+            "description": "Group for Providing Automatic Access to Howard4"
+        },
+        "_links": {
+            "logo": [
+                {
+                    "name": "medium",
+                    "href": "https://op3static.oktacdn.com/assets/img/logos/groups/odyssey/okta-medium.1a5ebe44c4244fb796c235d86b47e3bb.png",
+                    "type": "image/png"
+                },
+                {
+                    "name": "large",
+                    "href": "https://op3static.oktacdn.com/assets/img/logos/groups/odyssey/okta-large.d9cfbd8a00a4feac1aa5612ba02e99c0.png",
+                    "type": "image/png"
+                }
+            ],
+            "users": {
+                "href": "https://howard.oktapreview.com/api/v1/groups/00g1nu06qyIGzYerd1d7/users"
+            },
+            "apps": {
+                "href": "https://howard.oktapreview.com/api/v1/groups/00g1nu06qyIGzYerd1d7/apps"
+            }
+        }
+    },
+    {
+        "id": "00g1b9kxu8WH58d4a1d7",
+        "created": "2021-09-03T19:29:53.000Z",
+        "lastUpdated": "2021-09-03T19:29:53.000Z",
+        "lastMembershipUpdated": "2021-09-08T16:31:26.000Z",
+        "objectClass": [
+            "okta:user_group"
+        ],
+        "type": "OKTA_GROUP",
+        "profile": {
+            "name": "Workday_login_invalid",
+            "description": "Stores users where Workday Login is invalid format"
+        },
+        "_links": {
+            "logo": [
+                {
+                    "name": "medium",
+                    "href": "https://op3static.oktacdn.com/assets/img/logos/groups/odyssey/okta-medium.1a5ebe44c4244fb796c235d86b47e3bb.png",
+                    "type": "image/png"
+                },
+                {
+                    "name": "large",
+                    "href": "https://op3static.oktacdn.com/assets/img/logos/groups/odyssey/okta-large.d9cfbd8a00a4feac1aa5612ba02e99c0.png",
+                    "type": "image/png"
+                }
+            ],
+            "users": {
+                "href": "https://howard.oktapreview.com/api/v1/groups/00g1b9kxu8WH58d4a1d7/users"
+            },
+            "apps": {
+                "href": "https://howard.oktapreview.com/api/v1/groups/00g1b9kxu8WH58d4a1d7/apps"
+            }
+        }
+    }
+]
